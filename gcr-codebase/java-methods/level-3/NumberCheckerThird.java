@@ -5,6 +5,7 @@ public class NumberCheckerThird {
 
     // Method to find the count of digits in the number
     public static int countDigits(long number) {
+        System.out.println("welcome to Java World");
         int count = 0;
         while (number > 0) {
             count++;
