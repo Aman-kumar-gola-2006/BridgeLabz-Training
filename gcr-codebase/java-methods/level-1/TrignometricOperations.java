@@ -32,7 +32,7 @@ public class TrignometricOperations {
 		
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
-	  
+		System.out.println("welcome to Java World");
 		//take input of chocolates from user
 		System.out.println("enter the angle in degrees ");
 		double angle = sc.nextDouble();
