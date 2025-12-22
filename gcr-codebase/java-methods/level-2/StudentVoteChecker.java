@@ -22,6 +22,7 @@ import java.util.*;
    public static void main(String[] args) {
       // Create a Scanner Object
       Scanner sc = new Scanner(System.in);
+	   System.out.println("welcome to Java World");
 
      //declaring an array of size 10
      int age[]=new int[10];
