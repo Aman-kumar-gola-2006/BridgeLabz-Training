@@ -5,6 +5,7 @@ public class CalculateGradePercentages {
    public static void main(String[] args) {
       // Create a Scanner Object
       Scanner sc = new Scanner(System.in);
+	   System.out.println("welcome to Java World");
 	  
 	  //take input of number from user
 	  System.out.println("enter the number of students");
