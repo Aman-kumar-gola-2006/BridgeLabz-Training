@@ -3,6 +3,7 @@ public class RocketLaunch2{
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("welcome to Java World");
         System.out.println("Enter the countdown number : ");
 
         int counter = sc.nextInt();
