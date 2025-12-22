@@ -1,5 +1,6 @@
 public class DistributedPens {
 	public static void main(String [] args){
+		System.out.println("welcome to Java World");
 		int total_pens = 14;
 		int students = 3;
 
