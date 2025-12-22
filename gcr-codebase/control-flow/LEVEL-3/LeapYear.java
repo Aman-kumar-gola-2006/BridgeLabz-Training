@@ -3,6 +3,7 @@ public class LeapYear {
 	
 	public static void checkLeapYear(){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		int year = sc.nextInt();
 		
 		if (year>=1582 && (year % 4 ==0 && year%400==0)) {
