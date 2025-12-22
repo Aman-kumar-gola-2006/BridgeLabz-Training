@@ -15,6 +15,7 @@ public class CalculateSimpleInterest
 	{
 	 // create a scanner object 	
 	Scanner sc= new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	
 	//taking user input for principle
 	System.out.println("Enter the principle");
