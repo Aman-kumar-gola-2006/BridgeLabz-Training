@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class CalculateDigitsAndLargest {
    public static void main(String[] args) {
+	   System.out.println("welcome to Java World");
       // Create a Scanner Object
       Scanner sc = new Scanner(System.in);
 	  
