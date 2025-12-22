@@ -9,6 +9,7 @@ public class CalculateHandshakes {
 	public static void main(String [] args){
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	  
 		//take input of numberOfStudents from user
 		System.out.println("enter the number ");
