@@ -5,6 +5,7 @@ public class UniversityDiscount{
 		double discount;
 
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		System.out.println("Enter the fee amount : ");
 		 fee = sc.nextInt();
 		 System.out.println ("Enter the discount :  ");
