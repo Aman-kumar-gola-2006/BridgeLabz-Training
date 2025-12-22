@@ -61,6 +61,7 @@ public class Factors {
 	
 	//create a method to calculate the square of each factor by using Math class 
 	 public static double[] square(int number[] ){
+		 System.out.println("welcome to Java World");
 		 
 		 //create a new array to store the square of factor
 		 double fac[]=new double [number.length];
