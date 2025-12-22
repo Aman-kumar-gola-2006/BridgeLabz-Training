@@ -5,6 +5,7 @@ public class FactorsUtility {
 
     // Method to generate a random number using Math.random()
     public static int generateRandomNumber() {
+        System.out.println("welcome to Java World");
         return (int)(Math.random() * 50) + 1;   // random number between 1 and 50
     }
 
