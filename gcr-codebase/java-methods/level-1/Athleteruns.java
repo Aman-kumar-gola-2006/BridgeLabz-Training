@@ -16,6 +16,7 @@ public class Athleteruns
 	{
 	 // create a scanner object 	
 	Scanner sc= new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	
 	//taking user input for side1
 	System.out.println("Enter the side1");
