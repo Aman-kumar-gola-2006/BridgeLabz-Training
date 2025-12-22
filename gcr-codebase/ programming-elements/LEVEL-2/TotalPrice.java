@@ -3,6 +3,7 @@ import java.util.*;
 public class TotalPrice {
 	public static void calculateCost(){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		System.out.println("Enter the unit price of the item");
 		int price = sc.nextInt();
 		System.out.println("Enter the quantity of the item");
