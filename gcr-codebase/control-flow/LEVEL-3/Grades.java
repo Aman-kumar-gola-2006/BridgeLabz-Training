@@ -3,6 +3,7 @@ import java.util.*;
 	public class Grades{
 
 	public static void grades(int physics, int chemistry, int maths)
+			 System.out.println("welcome to Java World");
 	{
 	  int percentage=(physics+chemistry+maths)/3;
 	  if(percentage>=80)
