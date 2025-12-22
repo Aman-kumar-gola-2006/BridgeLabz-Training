@@ -12,6 +12,7 @@ public static void distance(int a)
 public static void main(String args[])
 {
   Scanner sc = new Scanner(System.in);
+  System.out.println("welcome to Java World");
   System.out.println("Enter the distance in Feet ");
   int distanceinfeet = sc.nextInt();
   distance(distanceinfeet);
