@@ -6,6 +6,7 @@ public class LeapYear {
 		
 	//taking scanner object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		//taking the user input for the year
 		System.out.println("Enter the year");
 		int year = sc.nextInt();
