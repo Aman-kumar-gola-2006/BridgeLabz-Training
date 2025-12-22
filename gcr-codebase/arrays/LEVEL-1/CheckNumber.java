@@ -6,7 +6,7 @@ public class CheckNumber{
 
 
 		//taking input 5 number
-
+		System.out.println("welcome to Java World");
 		System.out.println("Enter 5 number");
 		for(int i=0; i<number.length; i++){
 			number[i] = sc.nextInt();
