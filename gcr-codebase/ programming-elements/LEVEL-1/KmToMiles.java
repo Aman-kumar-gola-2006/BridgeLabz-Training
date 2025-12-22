@@ -6,7 +6,7 @@ public class KmToMiles {
         double miles;
 
         Scanner input = new Scanner(System.in);
-
+        System.out.println("welcome to Java World");
         km = input.nextInt(); 
 
         miles = km / 1.6;
