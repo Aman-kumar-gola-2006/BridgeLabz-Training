@@ -2,6 +2,7 @@ import java.util.*;
 public class Bonus{
 	
 	public static void calculateBonus(){
+		System.out.println("welcome to Java World");
 		Scanner sc = new Scanner(System.in);
 		int salary = sc.nextInt();
 		int currentYear = 2025;
