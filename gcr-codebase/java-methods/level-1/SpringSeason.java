@@ -33,6 +33,7 @@ public class SpringSeason {
 		
 		// creating object of SpringSeason class to use the function.
 		SpringSeason sp = new SpringSeason();
+		System.out.println("welcome to Java World");
 		
 		// Print if the season is Spring or not
 		// calling the checkSpring()  method here
