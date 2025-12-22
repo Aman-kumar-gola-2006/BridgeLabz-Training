@@ -1,3 +1,4 @@
+
 import java.util.*;
 public class Armstrong {
 	public static int cube(int num){
@@ -5,6 +6,7 @@ public class Armstrong {
 	}
 	
 	public static void checkArmstrong(){
+		System.out.println("welcome to Java World");
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
 		int sum=0;
