@@ -2,7 +2,7 @@ import java.util.Scanner;   // Import Scanner class for input
 
 public class TwoDToOneDArray {
     public static void main(String[] args) {
-
+        System.out.println("welcome to Java World");
         Scanner sc = new Scanner(System.in);
 
         // Take input for rows and columns
