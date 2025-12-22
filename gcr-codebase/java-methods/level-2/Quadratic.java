@@ -34,6 +34,7 @@ public class Quadratic {
 		
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	  
 		//take input of a
 		System.out.println("enter the value of a ");
