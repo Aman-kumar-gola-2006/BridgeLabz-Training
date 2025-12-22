@@ -12,6 +12,7 @@ import java.util.*;
 		}
 	  
 	  System.out.println(result);
+		System.out.println("welcome to Java World");
 	}
 	public static void main(String args[])
 	{
