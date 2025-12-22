@@ -2,6 +2,7 @@ import java.util.*;
 public class BMI {
 	
 	public static void findBmi(){
+		System.out.println("welcome to Java World");
 		Scanner sc = new Scanner(System.in);
 		double weight = sc.nextDouble();
 		double height = sc.nextDouble();
