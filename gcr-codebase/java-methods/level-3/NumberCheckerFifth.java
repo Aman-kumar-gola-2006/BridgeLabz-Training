@@ -10,6 +10,7 @@ public class NumberCheckerFifth {
 
     // Method to find sum of proper divisors of a number
     public static int sumOfProperDivisors(int number) {
+        System.out.println("welcome to Java World");
         int sum = 0;
         for (int i = 1; i <= number / 2; i++) {
             if (number % i == 0) {
