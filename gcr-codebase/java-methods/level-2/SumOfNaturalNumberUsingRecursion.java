@@ -25,6 +25,7 @@ public class SumOfNaturalNumberUsingRecursion {
 		
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	  
 		//take input of the number from user
 		System.out.println("enter the number ");
