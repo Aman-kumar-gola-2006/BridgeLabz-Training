@@ -16,6 +16,7 @@ System.out.println(" The Quotient is " +  quotient+ " and Reminder is   " + remi
 public static void main(String args[])
 {
   Scanner sc=new Scanner(System.in);
+  System.out.println("welcome to Java World");
   System.out.println("Enter the first number ");
   int number1=sc.nextInt();
   System.out.println("Enter the second number ");
