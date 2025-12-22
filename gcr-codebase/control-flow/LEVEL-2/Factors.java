@@ -3,6 +3,7 @@ public class Factors {
 	
 	public static void findFactors   (){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		int number = sc.nextInt();
 		if(number>0){
 			for(int i=1; i<=number; i++){
