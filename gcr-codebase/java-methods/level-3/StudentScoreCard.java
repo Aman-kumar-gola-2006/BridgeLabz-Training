@@ -6,6 +6,7 @@ public class StudentScoreCard {
     // Method to generate random PCM marks for students
     // Column 0 -> Physics, Column 1 -> Chemistry, Column 2 -> Maths
     public static int[][] generatePCMScores(int students) {
+        System.out.println("welcome to Java World");
 
         int scores[][] = new int[students][3];
 
