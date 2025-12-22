@@ -24,6 +24,7 @@ import java.util.*;
 	{
 	 // create a scanner object 	
 	Scanner sc= new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	
 	//taking user input for number
 	System.out.println("Enter the number1");
