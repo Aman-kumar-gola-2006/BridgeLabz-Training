@@ -17,6 +17,7 @@ public class CalculateTemperature{
 		
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	  
 		//take input of temperature and windSpeed from user
 		System.out.println("enter the temperature ");
