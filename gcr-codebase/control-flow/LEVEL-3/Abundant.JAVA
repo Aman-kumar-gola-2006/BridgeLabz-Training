@@ -2,6 +2,7 @@ import java.util.*;
 public class Abundant {
 	
 	public static void checkAbundant(){
+		System.out.println("welcome to Java World");
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
 		int sum =0;
