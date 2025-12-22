@@ -2,7 +2,7 @@ public class Profitloss{
 	public static void main(String [] args){
 		int cost_price = 129;
 		int selling_price = 191;
-
+		System.out.println("welcome to Java World");
 		int Profit = selling_price - cost_price;
 		double ProfitPercentage = Profit * 100 /cost_price;	
 
