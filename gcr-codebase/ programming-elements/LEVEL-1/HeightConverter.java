@@ -8,7 +8,7 @@ public class HeightConverter {
         double inches;
 
         Scanner input = new Scanner(System.in);
-
+        System.out.println("welcome to Java World");
         heightCm = input.nextDouble();   
 
         totalInches = heightCm / 2.54;   
