@@ -50,7 +50,7 @@ import java.util.*;
 	{
 	 // create a scanner object 	
 	Scanner sc= new Scanner(System.in);
-	
+		System.out.println("welcome to Java World");
 	//taking user input for number1
 	System.out.println("Enter the number1");
 	int number1=sc.nextInt();
