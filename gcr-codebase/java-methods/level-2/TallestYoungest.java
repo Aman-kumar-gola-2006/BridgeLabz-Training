@@ -33,6 +33,7 @@ public class TallestYoungest {
    public static void main(String[] args) {
       // Create a Scanner Object
       Scanner sc = new Scanner(System.in);
+       System.out.println("welcome to Java World");
 	  
 	  // Creating an Array of length 3 for height 
 	  int height[] = new int[3];
