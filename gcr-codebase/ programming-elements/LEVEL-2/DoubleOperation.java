@@ -2,6 +2,7 @@ import java.util.*;
 public class DoubleOperation {
 	public static void solveExpression (){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		System.out.println("Enter the value of a " );
 		double a=sc.nextDouble();
 		System.out.println("Enter the value of b " );
