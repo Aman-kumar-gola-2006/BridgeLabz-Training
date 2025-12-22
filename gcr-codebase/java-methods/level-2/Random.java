@@ -68,6 +68,7 @@ public class Random{
 		
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	  
 		//take input of size of the Array
 		System.out.println("enter the size of Array ");
