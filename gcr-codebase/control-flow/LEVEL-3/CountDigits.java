@@ -2,6 +2,7 @@ import java.util.*;
 public class CountDigits {
 	
 	public static void countDigit(){
+		System.out.println("welcome to Java World");
 		Scanner sc = new Scanner(System.in);
 		int number = sc.nextInt();
 		int count =0; 
