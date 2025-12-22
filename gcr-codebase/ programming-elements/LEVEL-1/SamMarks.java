@@ -3,7 +3,7 @@ public class SamMarks{
 		int Maths = 94;
 		int Physics =95;
 		int Chemistry =96;
-
+		System.out.println("welcome to Java World");
 		int average = (Maths + Physics + Chemistry) / 3;
 		System.out.println("Average marks = " + average);
 	}
