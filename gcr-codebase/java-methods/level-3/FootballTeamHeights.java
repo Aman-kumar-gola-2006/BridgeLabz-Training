@@ -5,6 +5,7 @@ public class FootballTeamHeights {
 
     // Method to generate random heights for players
     public static int[] generateHeights() {
+        System.out.println("welcome to Java World");
         int heights[] = new int[11];
         Random r = new Random();
 
