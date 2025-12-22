@@ -1,4 +1,4 @@
-import java.util.*;
+simport java.util.*;
 
 // Program to calculate bonus and salary details of employees
 public class EmployeeBonusCalculator {
@@ -60,6 +60,7 @@ public class EmployeeBonusCalculator {
 
         System.out.println("Emp\tOldSalary\tYears\tBonus\t\tNewSalary");
         System.out.println("----------------------------------------------------------");
+        System.out.println("welcome to Java World");
 
         for (int i = 0; i < 10; i++) {
 
