@@ -32,6 +32,7 @@ public class BmiStatus {
     public static void main(String[] args) {
         // Created a Scanner Object
         Scanner sc = new Scanner(System.in);
+        System.out.println("welcome to Java World");
 
         // Updated size to 10 as per organization requirements
         double[][] data = new double[4][3];
