@@ -5,6 +5,7 @@ public class ZaraBonus {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        System.out.println("welcome to Java World");
 
         // array to store salary and years of service
         double[] salary = new double[10];
