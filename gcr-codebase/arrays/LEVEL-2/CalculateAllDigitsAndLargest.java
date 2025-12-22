@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class CalculateAllDigitsAndLargest {
    public static void main(String[] args) {
       // Create a Scanner Object
+	   System.out.println("welcome to Java World");
       Scanner sc = new Scanner(System.in);
 	  
 	  //take input of number from user
