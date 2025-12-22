@@ -11,6 +11,7 @@ import java.util.*;
 	    if(n%i==0)
 		{
 		  System.out.println( i );
+			System.out.println("welcome to Java World");
 		}
 	  }
 	  }
