@@ -34,7 +34,8 @@ public class SumOfNaturalNum{
 		public static void main(String args[])
 		{
        // create a scanner object
-		   Scanner sc=new Scanner(System.in); 
+		   Scanner sc=new Scanner(System.in);
+			System.out.println("welcome to Java World");
 		 //take input from user 
 		 
 		 System.out.println("Enter the number");  
