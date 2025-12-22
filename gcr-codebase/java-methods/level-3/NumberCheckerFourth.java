@@ -10,6 +10,7 @@ public class NumberCheckerFourth {
 
     // Method to check if number is prime
     public static boolean isPrime(int number) {
+        System.out.println("welcome to Java World");
         if (number <= 1)
             return false;
 
