@@ -3,6 +3,7 @@ public class PowerOfNumber {
 	
 	public static void findPower(){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		int number =sc.nextInt();
 		int power = sc.nextInt();
 		
