@@ -4,7 +4,8 @@ public class CalculateBMI{
 	public static void main (String [] args){
 	Scanner sc = new Scanner(System.in);
 	
-	// Input for number of persons 
+	// Input for number of persons
+		System.out.println("welcome to Java World");
 	System.out.println("Enter number of persons" );
 	int number = sc.nextInt();
 	
