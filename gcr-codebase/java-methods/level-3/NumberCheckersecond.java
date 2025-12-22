@@ -11,6 +11,7 @@ public class NumberCheckersecond {
 
     // Method to find the count of digits in the number
     public static int countDigits(int number) {
+        System.out.println("welcome to Java World");
         int count = 0;
         while (number > 0) {
             count++;
