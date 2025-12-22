@@ -2,6 +2,7 @@ import java.util.*;
 public class SpringSeason{
 	public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 
 	System.out.println("Enter month : ");
 	int month = sc.nextInt();
