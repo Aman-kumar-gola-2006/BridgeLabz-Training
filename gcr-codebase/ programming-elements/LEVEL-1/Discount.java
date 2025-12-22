@@ -1,5 +1,6 @@
 public class Discount{
 	public static void main(String[] args){
+		System.out.println("welcome to Java World");
 		int fee = 125000;
 		int discountPercent  = 10;
 
