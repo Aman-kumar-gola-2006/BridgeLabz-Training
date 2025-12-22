@@ -2,7 +2,7 @@ import java.util.Scanner;   // Import Scanner class to take input from user
 
 public class MultiplicationTable {
     public static void main(String[] args) {
-
+        System.out.println("welcome to Java World");
         Scanner sc = new Scanner(System.in);  
         // Create Scanner object for user input
 
