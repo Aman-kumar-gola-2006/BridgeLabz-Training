@@ -5,6 +5,7 @@ public class ReverseNumber{
 	public static void main (String [] args){
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		
 		// Take integer input 
 		System.out.print("Enter the number : " );
