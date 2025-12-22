@@ -3,6 +3,7 @@ public class FizzBuzz{
 	
 	public static void  checkMultiples(){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		int number = sc.nextInt();
 		if (number>0){
 			 if(number%3 ==0 && number%5 ==0 ){
