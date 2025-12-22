@@ -30,6 +30,7 @@ public class UnitConvertorSecond  {
 	
 	//taking scanner object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 		//taking the user input for the km
 		System.out.println("Enter the yards");
 		int yards = sc.nextInt();
