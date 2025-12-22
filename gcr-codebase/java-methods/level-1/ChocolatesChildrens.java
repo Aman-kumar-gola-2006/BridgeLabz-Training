@@ -25,6 +25,7 @@ public class ChocolatesChildrens {
 		
 		// Created a Scanner Object
 		Scanner sc = new Scanner(System.in);
+		System.out.println("welcome to Java World");
 	  
 		//take input of chocolates from user
 		System.out.println("enter the chocolates number ");
