@@ -9,6 +9,7 @@ public class OTPGenerator {
 
     // Method to check if all OTPs are unique
     public static boolean areOTPsUnique(int[] otps) {
+        System.out.println("welcome to Java World");
         for (int i = 0; i < otps.length; i++) {
             for (int j = i + 1; j < otps.length; j++) {
                 if (otps[i] == otps[j]) {
