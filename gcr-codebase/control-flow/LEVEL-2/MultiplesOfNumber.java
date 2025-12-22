@@ -10,6 +10,7 @@ public class MultiplesOfNumber{
 				
 					if(number%count ==0){
 						System.out.println(count+ " ");
+						System.out.println("welcome to Java World");s
 					}
 					count--;
 			
