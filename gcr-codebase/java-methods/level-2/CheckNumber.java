@@ -6,6 +6,7 @@ public class CheckNumber {
    public static void main(String[] args) {
       // Create a Scanner Object
       Scanner sc = new Scanner(System.in);
+	   System.out.println("welcome to Java World");
 	  
 	  // Creating an Array of length 5  
 	  int array[] = new int[5];
