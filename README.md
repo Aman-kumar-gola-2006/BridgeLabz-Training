@@ -132,5 +132,39 @@
 🔗 **Code Link (Day 4):**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
+### 🔹 Day 5: Java Methods
+
+* Learned the concept of user-defined methods
+* Used methods multiple times in programs
+* Made methods dynamic using parameters
+* Implemented recursive methods
+* Worked with static methods
+
+#### 🧪 Java Programs Implemented
+
+* Level-1 problems using basic methods
+* Level-2 problems with parameterized methods
+* Level-3 problems using advanced logic
+* Programs demonstrating method reuse
+* Recursive logic programs
+* Programs using static methods
+* Programs using Java standard library methods
+
+#### 🛠 Concepts & Practices
+
+* Solved Level-1, Level-2, and Level-3 problems
+* Used Java standard library methods
+* Worked with `java.lang.Math` class
+* Improved modular programming approach
+* Reduced code duplication
+* Followed proper naming conventions
+* Practiced Git workflow:
+
+  * Committing changes
+  * Pushing code to GitHub
+
+🔗 **Code Link (Day 5):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods)
+
 
 
