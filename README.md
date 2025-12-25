@@ -167,4 +167,45 @@
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods)
 
 
+### 🔹 Day 6: Java Strings & Exceptions
+
+* Learned core concepts of Java Strings
+* Created and manipulated strings
+* Used escape sequence (`\"`)
+* Took string input from user
+* Worked with string arrays
+* Passed strings as method parameters
+* Used String class built-in methods
+* Learned ASCII character codes
+
+#### ⚠️ Java Exceptions
+
+* Introduction to Java exceptions
+* Understood exception hierarchy
+* Learned exception types
+* Worked with unchecked exceptions (`RuntimeException`)
+* Worked with checked exceptions
+
+#### 🧪 Java Programs Implemented
+
+* Level-1 problems on basic string operations
+* Level-2 problems using string methods and arrays
+* Level-3 problems using advanced string logic
+* Programs demonstrating exception handling
+* Programs handling checked and unchecked exceptions
+
+#### 🛠 Best Programming Practices Followed
+
+* Used variables for fixed values, user input, and results
+* Used methods instead of writing logic in `main()`
+* Followed proper naming conventions for variables and methods
+* Maintained proper program and class names
+* Handled checked and unchecked exceptions wherever possible
+* Used meaningful method names indicating action and result
+
+🔗 **Code Link (Day 6):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-string](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-string)
+
+
+
 
