@@ -100,3 +100,37 @@
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
 
+### 🔹 Day 4: Java Arrays
+
+* Learned core concepts of Java arrays
+* Created single-dimensional arrays
+* Accessed array elements using index
+* Iterated arrays using `for` loop
+* Modified array elements
+* Used `length` property of arrays
+
+#### 🧪 Java Programs Implemented
+
+* Programs using single-dimensional arrays
+* Array traversal and modification programs
+* Programs using multi-dimensional arrays
+* 2D array (matrix) programs
+* Programs to access size and elements of 2D arrays
+
+#### 🛠 Concepts & Practices
+
+* Worked with multi-dimensional arrays
+* Improved understanding of data storage and access
+* Used `System.err()` for error messages
+* Used `System.exit()` method
+* Followed proper naming conventions
+* Practiced Git workflow:
+
+  * Committing changes
+  * Pushing code to GitHub
+
+🔗 **Code Link (Day 4):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
+
+
