@@ -31,3 +31,40 @@
 🔗 **Code Link (Day 1):**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Programming%20Pre-requisites](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Programming%20Pre-requisites)
 
+
+### 🔹 Day 2: Programming Elements
+
+* Solved Level-1 and Level-2 programming problems
+* Practiced core programming elements in Java
+* Worked with variables and data types
+* Used operators for calculations
+* Implemented user input and output
+
+#### 🧪 Java Programs Implemented
+
+* Average marks calculation
+* Age calculation
+* Unit conversion programs
+* Loop-based programs
+* Conditional logic programs
+
+#### 🛠 Concepts & Practices
+
+* Used conditional statements (`if`, `else`)
+* Applied looping concepts:
+
+  * `for` loop
+  * `while` loop
+* Improved logical thinking and problem-solving skills
+* Followed proper naming conventions
+* Practiced Git workflow:
+
+  * Adding files
+  * Committing changes
+  * Pushing code to GitHub
+
+🔗 **Code Link (Day 2):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/%20programming-elements](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/%20programming-elements)
+
+
+
