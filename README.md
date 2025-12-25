@@ -83,7 +83,7 @@
   * `for` loop
   * `while` loop
 * Programs using `break` and `continue`
-* Menu-driven programs using `switch` statement
+* Menu-driven programs using `switch` statement.
 
 #### 🛠 Concepts & Practices
 
