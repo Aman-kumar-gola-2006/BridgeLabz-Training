@@ -206,6 +206,49 @@
 🔗 **Code Link (Day 6):**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-string](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-string)
 
+### 🔹 Day 7: Extra Java Strings, Built-in Functions & Date-Time
+
+* Revised advanced Java String handling concepts
+* Practiced common string operations and functions
+* Worked on string handling and string–date–time problems
+* Implemented parameter passing and return values
+* Applied best practices for organizing code into functions
+
+#### 🧰 Built-in Functions & Utilities
+
+* Used `Random` class for random number generation
+* Used `Math` class for mathematical operations
+* Introduction to Java Date and Time concepts
+* Worked with modern Java Date & Time APIs (Java 8+)
+* Understood real-world use cases of date and time handling
+
+#### 🧪 Extra Problems Implemented
+
+* Number Guessing Game using `Random` class
+* Maximum of three numbers using modular functions
+* Prime number checker using separate validation method
+* Fibonacci sequence generator
+* Palindrome checker for strings
+* Factorial calculation using recursion
+* GCD and LCM calculator using functions
+* Temperature converter (Fahrenheit ↔ Celsius)
+* Basic calculator with separate functions for each operation
+
+#### 🛠 Best Practices Followed
+
+* Used variables for fixed values, user inputs, and results
+* Organized logic into multiple reusable methods
+* Followed proper naming conventions
+* Maintained clean and modular code structure
+* Separated input, processing, and output logic
+
+🔗 **Code Link (Day 7):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
+
+
+
+
+
 
 
 
