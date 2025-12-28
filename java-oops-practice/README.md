@@ -64,3 +64,85 @@
 
 ---
 
+### 🔹 Day 2: Constructors, Access Modifiers & Class Design
+
+#### 📚 Learning Objectives
+
+* Understood the concept of **constructors** in Java and their role in object initialization
+* Learned the difference between **default constructors** and **parameterized constructors**
+* Gained a clear understanding of **access modifiers**:
+
+  * `public`
+  * `protected`
+  * `private`
+  * default (package-private)
+* Learned about **instance variables** and how they differ for each object
+* Understood **class variables (static variables)** shared across all objects
+* Practiced **encapsulation** using private variables with **getters and setters**
+* Strengthened understanding of **inheritance** and controlled data access
+
+---
+
+### 🧪 Java Programs & Practice Work
+
+* Created multiple Java programs using **constructors**
+* Solved problems based on:
+
+  * Parameterized constructors
+  * Initializing objects using constructors
+  * Instance variables vs class (static) variables
+  * Access modifiers implementation
+* Implemented scenario-based programs such as:
+
+  * Book Library System
+  * Bank Account Management
+  * Employee Records
+  * Vehicle Registration
+  * Online Course Management
+* Created subclasses to demonstrate:
+
+  * Use of **protected** members
+  * Controlled access to **private** variables using getters and setters
+
+---
+
+### 🛠 Tools & Concepts Used
+
+* **Java (OOP Concepts)**
+
+  * Constructors
+  * Instance variables
+  * Class (static) variables
+  * Access Modifiers
+  * Encapsulation
+  * Inheritance
+* **Eclipse IDE**
+
+  * Package-based project organization
+  * Class and constructor creation
+  * Debugging and execution
+* **Git & GitHub**
+
+  * Continued work on `java-oops-practice` branch
+  * Added multiple constructor-based programs
+  * Followed structured and meaningful commits
+
+---
+
+### ✅ Best Practices Followed
+
+* Applied the **least privilege principle** while using access modifiers
+* Kept sensitive data **private** and accessed it via getters/setters
+* Used `protected` only where inheritance required controlled access
+* Maintained clear constructor logic for proper object initialization
+* Followed standard **Java naming conventions**
+* Organized code using meaningful **packages and class names**
+
+### 🔗 Code Link (Week 2 – Day 2):
+
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors/level1](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors/level1)
+
+---
+
+
+
