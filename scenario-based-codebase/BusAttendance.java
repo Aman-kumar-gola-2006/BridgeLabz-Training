@@ -4,7 +4,7 @@ public class BusAttendance{
 public static void main(String[] args ){
 	Scanner sc = new Scanner(System.in);
 
-	System.out.println("Enter number of student");
+	System.out.println("Enter number of Student");
 	int n = sc.nextInt();
 	sc.nextLine();
 
