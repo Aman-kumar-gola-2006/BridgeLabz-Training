@@ -1,28 +1,3 @@
-# BridgeLabz-Training
-
-BridgeLabz-Training/
-│
-├── core-java-practice/
-│   ├── arrays/
-│   ├── control-flows/
-│   ├── java-methods/
-│   ├── programming-elements/
-│   ├── java-strings/
-│   ├── extra-questions/
-│   ├── leet-code-codebase/
-│   ├── scenario-based/
-│   ├── java-oops-practice/
-│   │   └── gcr-codebase/
-│   │       └── JavaOopsConcept/
-│   │           └── src/
-│   │               └── com/
-│   │                   └── classandobject/
-│   │                       └── javaconstructors/
-│   └── README.md
-│
-├── gcr-codebase/
-├── scenario-based-codebase/
-├── README.md
 
 
 ## 📘 BridgeLabz Training – Java Programming
