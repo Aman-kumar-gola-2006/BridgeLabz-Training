@@ -247,6 +247,80 @@
 🔗 **Code Link (Day 7):**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
 
+📘 Week 2: Object Oriented Programming (OOP)
+🔹 Day 3: this, static, final Keywords, instanceof Operator & Scenario-Based Practice
+Learned and practiced Java inbuilt keywords and operators
+Strengthened understanding of object behavior, memory sharing, and immutability
+Solved real-world scenario-based Core Java problems
+Applied control flow statements in practical applications
+Worked across multiple branches for structured learning
+🧠 Concepts Covered
+this keyword
+
+Referring to current object
+Resolving variable shadowing
+Improving constructor and method clarity
+static keyword
+
+Class-level variables and methods
+Shared data across objects
+final keyword
+
+Final variables (constants)
+Final methods (prevent overriding)
+Final classes (prevent inheritance)
+instanceof operator
+
+Runtime object type checking
+Safe type casting in inheritance
+Eclipse Editor
+
+Editor usage
+Code navigation
+Debugging and execution
+🧪 Java Programs & Practice Work
+🔹 Level 1 Lab Practice (OOP Keywords)
+Programs using this keyword in constructors and methods
+Static variables and static methods
+Final variables, methods, and classes
+instanceof operator with parent–child class relationships
+Instance vs class-level data behavior
+🔹 Scenario-Based Core Java Problems
+Parking Lot Gate System 🚗
+Number Guessing Game 🎲
+Shopkeeper’s Discount Dashboard 🛍️
+School Bus Attendance System 🚍
+Phone Recharge Simulator 📱
+🛠 Tools & Technologies Used
+Java (Core + OOP Concepts)
+
+Keywords: this, static, final
+instanceof operator
+Conditional statements and loops
+Eclipse IDE
+
+Class creation
+Debugging and execution
+Git & GitHub
+
+Worked on multiple branches:
+
+java-oops-practice
+core-java-practice
+Maintained clean and meaningful commits
+
+✅ Best Practices Followed
+Used this keyword to avoid ambiguity
+Applied static only where shared behavior was required
+Used final to enforce immutability and restrictions
+Performed instanceof checks before type casting
+Followed Java naming and coding conventions
+Wrote clean, readable, and well-structured code
+🔗 Code Links (Week 2 – Day 3)
+OOP Keywords Practice: 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction)
+
+Scenario-Based Problems: 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 
 
