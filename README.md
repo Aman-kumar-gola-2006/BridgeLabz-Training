@@ -248,206 +248,254 @@
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
 
 
+🔹 Day 8: Advanced Java Strings, Date-Time & Scenario-Based Programs
+📌 Overview
 
-🔹 Day 8: Advanced Java Strings, Date-Time & Scenario-Based Problems
-Strengthened understanding of advanced String handling concepts
-Solved complex problems using String methods and logic
-Worked extensively with Java Date & Time APIs
-Implemented real-world scenario-based programs
-Improved logical thinking by translating real problems into Java solutions
-Applied modular programming with proper method separation
-🧰 Advanced Concepts & Utilities Used
-Advanced String class methods:
+Focused on strengthening advanced String handling, Java Date & Time APIs, and solving real-world scenario-based problems. Improved logical thinking and modular coding practices.
 
-length(), charAt(), substring()
-equals(), equalsIgnoreCase()
-toUpperCase(), toLowerCase()
-split(), trim(), replace()
-Worked with StringBuilder for efficient string manipulation
+🧰 Concepts & Utilities Covered
+🔹 Advanced String Handling
 
-Used Java Date & Time APIs (Java 8+):
+length()
+
+charAt()
+
+substring()
+
+equals() / equalsIgnoreCase()
+
+toUpperCase() / toLowerCase()
+
+split()
+
+trim()
+
+replace()
+
+StringBuilder for efficient string operations
+
+🔹 Java Date & Time API (Java 8+)
 
 LocalDate
+
 LocalTime
+
 LocalDateTime
-Period and Duration
-Practiced formatting and parsing date-time values
 
-Used conditional logic and loops in real-world use cases
+Period
 
-🧪 Programs & Scenario-Based Problems Implemented
-🔤 String & String Handling Programs
-Word and character count programs
-String reversal using different approaches
-Palindrome string checker with validation
-String comparison and formatting programs
-Sentence analysis programs (vowels, consonants, spaces)
-String-based menu driven programs
-🕒 Date & Time Based Programs
-Current date and time display program
-Age calculation using Date of Birth
+Duration
+
+Date formatting & parsing
+
+🧪 Programs Implemented
+🔤 String Handling Programs
+
+Word and character count
+
+String reversal (multiple approaches)
+
+Palindrome checker
+
+String comparison & formatting
+
+Sentence analysis (vowels, consonants, spaces)
+
+Menu-driven string programs
+
+🕒 Date & Time Programs
+
+Current date & time display
+
+Age calculation using DOB
+
 Difference between two dates
-Day and month extraction from date
-Date-based validation programs
-🧠 Scenario-Based Problems
-Maya BMI Fitness Tracker
 
-Took user details (name, height, weight)
-Calculated BMI using formula
-Categorized fitness level (Underweight, Normal, Overweight, Obese)
-Used modular functions for calculation and result display
-Coffee Counter Application
+Extracting day and month
 
-Menu-driven coffee ordering system
-Counted total cups ordered
-Calculated total bill amount
-Used loops, conditionals, and functions
-Implemented real-world logic simulation
-Additional scenario-based problems involving:
+Date validation programs
 
-Conditional decision making
-User input validation
-Method reuse and modular design
+🧠 Scenario-Based Programs
+🏃 Maya BMI Fitness Tracker
+
+Took user input (name, height, weight)
+
+Calculated BMI
+
+Displayed fitness category
+
+Used modular methods
+
+☕ Coffee Counter Application
+
+Menu-driven system
+
+Counted total cups
+
+Calculated bill amount
+
+Used loops & conditions
+
 🛠 Best Practices Followed
-Used meaningful variable and method names
-Organized logic into reusable and modular methods
-Avoided hard-coding values wherever possible
-Separated input, processing, and output logic
-Followed Java naming and coding conventions
-Wrote clean, readable, and maintainable code
-Used comments for better code understanding
-🔗 Code Link (Day 8): 👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
 
-🔹 Day 9: Core Java Scenario-Based Problem Solving (Real-World Applications)
-Solved 5 real-world scenario-based Core Java problems
-Strengthened problem-solving skills by translating real-life situations into Java programs
-Practiced applying control flow statements in practical use cases
-Improved logical thinking using loops, conditions, and menu-driven programs
-Focused on writing clean, readable, and well-structured Java code
-🧪 Scenario-Based Problems Implemented
-Parking Lot Gate System 🚗
+Modular programming
 
-Developed a smart parking system with options:
+Meaningful variable & method names
 
-Park
-Exit
-Show Occupancy
-Used switch-case for menu-driven operations
+Avoided hard-coded values
 
-Implemented while loop to continue execution until the parking lot is full or the user exits
+Clean and readable code
 
-Number Guessing Game 🎲
+Proper comments for understanding
 
-Designed a guessing game for numbers between 1 and 100
-Used do-while loop for repeated attempts
-Provided hints like "Too High" and "Too Low"
-Counted attempts and exited after 5 incorrect tries
-Shopkeeper’s Discount Dashboard 🛍️
+🔗 Code Link (Day 8):
+👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
 
-Accepted item prices using a for loop
-Applied discount logic using if-else conditions
-Used constants for discount rates
-Followed proper indentation and added meaningful comments
-School Bus Attendance System 🚍
+🔹 Day 9: Core Java Scenario-Based Problem Solving
+📌 Overview
 
-Tracked attendance of 10 students
-Used for-each loop to iterate over student names
-Collected attendance status (Present / Absent)
-Displayed total present and absent count
-Phone Recharge Simulator 📱
+Worked on real-world scenario-based programs using Java fundamentals.
+Focused on logic building, loops, conditions, and clean structure.
 
-Accepted mobile operator and recharge amount
-Used switch-case to display operator-specific offers
-Implemented loop for multiple recharges
-Displayed updated balance after each recharge
-🛠 Concepts & Tools Used
-Core Java Concepts
+🧪 Programs Implemented
+🚗 Parking Lot Gate System
 
-Conditional statements (if-else, switch)
-Looping constructs (for, while, do-while, for-each)
-Constants and variables
+Menu-driven system
+
+Park / Exit / Show occupancy
+
+Used switch & while loop
+
+🎲 Number Guessing Game
+
+Guess number between 1–100
+
+Used do-while loop
+
+Hints: Too High / Too Low
+
+Limited attempts
+
+🛍️ Shopkeeper’s Discount Dashboard
+
+Input item prices
+
+Applied discount logic
+
+Used constants and conditions
+
+🚍 School Bus Attendance System
+
+Tracked attendance of students
+
+Used for-each loop
+
+Counted present & absent students
+
+📱 Phone Recharge Simulator
+
+Operator-based recharge system
+
+Used switch-case
+
+Displayed updated balance
+
+🛠 Concepts Practiced
+
+if-else, switch
+
+for, while, do-while
+
 Menu-driven programs
-Eclipse IDE
 
-Class creation and execution
-Debugging and testing logic
-Git & GitHub
+User input validation
 
-Continued work on core-java-practice branch
-Added scenario-based programs
-Maintained clean and structured commits
-🛠 Best Practices Followed
-Converted real-world problems into logical Java solutions
-Used meaningful variable, method, and class names
-Followed proper indentation and coding standards
-Avoided hard-coded values by using constants
-Added comments to explain logic clearly
-Ensured user-friendly input and output flow
-🔗 Code Link (Day 9): 👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+Clean logic implementation
 
-🔹 Day 10: Advanced Core Java Scenario-Based Problem Solving (Real-World Applications)
-Solved 5 real-world scenario-based Core Java problems
-Strengthened understanding of arrays, loops, and control flow
-Applied modular programming with readable naming conventions
-Practiced decision-making using if, switch, continue, and break
-Focused on writing clean, maintainable, and user-friendly Java programs
-🧪 Scenario-Based Problems Implemented
-Temperature Logger 🌡️
+🔗 Code Link (Day 9):
+👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
 
-Recorded temperatures for 7 days using an array
-Used for loop to store and process data
-Calculated average and maximum temperature
-Used if conditions for comparisons
-Maintained modular and readable code blocks
-Train Reservation Queue 🚆
+🔹 Day 10: Advanced Core Java Scenario-Based Programming
+📌 Overview
 
-Simulated a basic train ticket booking system
-Displayed booking menu using switch-case
-Allowed multiple bookings using while loop
-Stopped booking once seats reached zero using break
-Sandeep’s Fitness Challenge Tracker 🏋️
+Focused on arrays, loops, control flow, and real-life application logic using clean and structured Java programs.
 
-Stored daily push-up counts for a week
-Used for-each loop to calculate total and average
-Applied continue statement to skip rest days
-Implemented clean logic with meaningful variable names
-Movie Ticket Booking App 🎬
+🧪 Programs Implemented
+🌡️ Temperature Logger
 
-Took user input for movie type, seat type (Gold/Silver), and snacks
-Used switch and if together for pricing logic
-Handled multiple customers using loops
-Maintained structured flow and user-friendly output
-Rohan’s Library Reminder App 📚
+Stored temperature for 7 days
 
-Implemented fine calculation based on return and due dates
-Calculated late fine at ₹5 per day
-Repeated logic for 5 books using for loop
-Applied real-world date-based logic
+Used arrays and loops
+
+Calculated average & maximum temperature
+
+🚆 Train Reservation Queue
+
+Menu-driven ticket booking
+
+Auto seat allocation
+
+Used while, switch, break
+
+🏋️ Sandeep’s Fitness Challenge
+
+Stored push-up counts
+
+Used for-each loop
+
+Skipped rest days using continue
+
+🎬 Movie Ticket Booking App
+
+Movie type selection
+
+Seat type (Gold/Silver)
+
+Snacks option
+
+Used switch + if
+
+Supported multiple users
+
+📚 Rohan’s Library Reminder App
+
+Compared due & return dates
+
+Calculated fine (₹5/day)
+
+Loop used for multiple books
+
 🛠 Concepts & Tools Used
-Core Java Concepts
 
 Arrays
-Conditional statements (if-else, switch)
-Looping constructs (for, while, for-each)
-break and continue
+
+Conditional statements
+
+Loops (for, while, for-each)
+
+break & continue
+
 Modular programming
+
 Eclipse IDE
 
-Program execution and debugging
-Git & GitHub
+Git & GitHub version control
 
-Continued work on core-java-practice branch
-Added advanced scenario-based programs
-Maintained clean and structured commits
-🛠 Best Practices Followed
-Converted real-world problems into logical Java solutions
-Used meaningful variable and method names
-Followed proper indentation and coding standards
+✅ Best Practices Followed
+
+Clean and readable code
+
+Modular structure
+
+Meaningful naming conventions
+
 Avoided hard-coded values
-Wrote modular and readable code
-Ensured smooth user input and output handling
-🔗 Code Link (Day 10): 👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
 
+User-friendly input/output
 
+Proper indentation and comments
+
+🔗 Code Link (Day 10):
+👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
 
 
