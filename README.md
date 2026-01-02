@@ -1,281 +1,403 @@
-📘 Week 2: Object Oriented Programming (OOP)
-🔹 Day 1: Installation, Eclipse Setup & Git Branch Creation
-📚 Learning Objectives
+## 📘 Week 2: Object Oriented Programming (OOP)
 
-Installed and configured Eclipse IDE for Java development
+### 🔹 Day 1: Installation, Eclipse Setup & Git Branch Creation
 
-Understood Eclipse workspace and project structure
+#### 📚 Learning Objectives
 
-Learned how to organize Java projects using packages
+* Installed and configured **Eclipse IDE** for Java development
+* Understood the Eclipse workspace and project structure
+* Learned how to organize Java projects using **packages**
+* Gained foundational knowledge of **Object Oriented Programming (OOP)**
+* Understood the role of **classes and objects** in Java
+* Created and managed a **new Git branch** for OOP practice
 
-Gained foundational understanding of Object-Oriented Programming (OOP)
+---
 
-Understood classes and objects
+### 🧪 Java Programs & Practice Work
 
-Created and managed a new Git branch for OOP practice
+* Created Java projects using Eclipse IDE
+* Created multiple **packages** to organize code logically
+* Implemented **class files** inside appropriate packages
+* Solved basic problems based on:
 
-🧪 Java Programs & Practice Work
+  * Classes
+  * Objects
+  * Class structure
+  * Method definitions
+* Practiced instantiating objects and accessing class members
 
-Created Java projects using Eclipse IDE
+---
 
-Created multiple packages to organize code
+### 🛠 Tools & Concepts Used
 
-Implemented class files inside appropriate packages
+* **Eclipse IDE**
 
-Solved basic problems based on:
+  * Project creation
+  * Package management
+  * Class creation
+* **Object Oriented Programming Basics**
 
-Classes
+  * Classes
+  * Objects
+  * Methods
+  * Instance variables
+* **Git & GitHub**
 
-Objects
+  * Created a new branch: `java-oops-practice`
+  * Added Java source files to the branch
+  * Committed changes with meaningful commit messages
+  * Pushed branch code to GitHub repository
 
-Class structure
+---
 
-Method definitions
+### ✅ Best Practices Followed
 
-Practiced object creation and accessing class members
+* Used proper **package naming conventions**
+* Maintained clear and meaningful **class names**
+* Followed standard **Java coding conventions**
+* Kept code organized using package structures
+* Ensured clean commits for better version control
 
-🛠 Tools & Concepts Used
-🔹 Eclipse IDE
+### 🔗 Code Link (Week 2 – Day 1):
 
-Project creation
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject)
 
-Package management
+---
 
-Class creation
+### 🔹 Day 2: Constructors, Access Modifiers & Class Design
 
-🔹 Object Oriented Programming
+#### 📚 Learning Objectives
 
-Classes
+* Understood the concept of **constructors** in Java and their role in object initialization
+* Learned the difference between **default constructors** and **parameterized constructors**
+* Gained a clear understanding of **access modifiers**:
 
-Objects
+  * `public`
+  * `protected`
+  * `private`
+  * default (package-private)
+* Learned about **instance variables** and how they differ for each object
+* Understood **class variables (static variables)** shared across all objects
+* Practiced **encapsulation** using private variables with **getters and setters**
+* Strengthened understanding of **inheritance** and controlled data access
 
-Methods
+---
 
-Instance variables
+### 🧪 Java Programs & Practice Work
 
-🔹 Git & GitHub
+* Created multiple Java programs using **constructors**
+* Solved problems based on:
 
-Created new branch: java-oops-practice
+  * Parameterized constructors
+  * Initializing objects using constructors
+  * Instance variables vs class (static) variables
+  * Access modifiers implementation
+* Implemented scenario-based programs such as:
 
-Added Java source files
+  * Book Library System
+  * Bank Account Management
+  * Employee Records
+  * Vehicle Registration
+  * Online Course Management
+* Created subclasses to demonstrate:
 
-Committed changes with meaningful messages
+  * Use of **protected** members
+  * Controlled access to **private** variables using getters and setters
 
-Pushed code to GitHub
+---
 
-✅ Best Practices Followed
+### 🛠 Tools & Concepts Used
 
-Used proper package naming conventions
+* **Java (OOP Concepts)**
 
-Maintained meaningful class names
+  * Constructors
+  * Instance variables
+  * Class (static) variables
+  * Access Modifiers
+  * Encapsulation
+  * Inheritance
+* **Eclipse IDE**
 
-Followed Java coding standards
+  * Package-based project organization
+  * Class and constructor creation
+  * Debugging and execution
+* **Git & GitHub**
 
-Organized code using package structure
+  * Continued work on `java-oops-practice` branch
+  * Added multiple constructor-based programs
+  * Followed structured and meaningful commits
 
-Ensured clean and readable commits
+---
 
-🔗 Code Link (Week 2 – Day 1):
-👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/classandobject
+### ✅ Best Practices Followed
 
-🔹 Day 2: Constructors, Access Modifiers & Class Design
-📚 Learning Objectives
+* Applied the **least privilege principle** while using access modifiers
+* Kept sensitive data **private** and accessed it via getters/setters
+* Used `protected` only where inheritance required controlled access
+* Maintained clear constructor logic for proper object initialization
+* Followed standard **Java naming conventions**
+* Organized code using meaningful **packages and class names**
 
-Learned constructors and their role in object initialization
+### 🔗 Code Link (Week 2 – Day 2):
 
-Understood:
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors/level1](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors/level1)
 
-Default constructors
+---
 
-Parameterized constructors
 
-Gained clarity on access modifiers:
+---
 
-public
+# 🔹 Day 3: `this`, `static`, `final` Keywords & `instanceof` Operator
 
-private
+### *(Level 1 Lab Practice)*
 
-protected
+---
 
-default
+## 📚 Learning Objectives
 
-Learned difference between:
+* Understood the purpose and usage of the **`this` keyword**:
 
-Instance variables
+  * Referring to current class instance variables
+  * Differentiating between instance variables and parameters
+  * Improving constructor and method clarity
 
-Static (class) variables
+* Learned the **`static` keyword** and its role in:
 
-Practiced encapsulation using getters and setters
+  * Creating class-level variables and methods
+  * Sharing data across all objects of a class
 
-Strengthened foundation of inheritance
+* Gained clarity on the **`final` keyword** and its usage with:
 
-🧪 Java Programs & Practice Work
+  * Variables (constant values)
+  * Methods (preventing method overriding)
+  * Classes (preventing inheritance)
 
-Created programs using constructors
+* Understood the **`instanceof` operator** to:
 
-Implemented:
+  * Check object type at runtime
+  * Support safe type casting
+  * Apply inheritance-based logic
 
-Parameterized constructors
+* Learned to use **Eclipse IDE features** for:
 
-Instance vs static variables
+  * Writing clean code
+  * Debugging
+  * Code formatting
 
-Access modifiers
+---
 
-Developed scenario-based programs:
+## 🧪 Java Programs & Practice Work
 
-Book Library System
+### Implemented Level 1 Lab Programs on:
 
-Bank Account Management
+* `this` keyword usage in constructors and methods
+* Static variables and static methods
+* Final variables, methods, and classes
+* `instanceof` operator with parent–child relationships
 
-Employee Records
+### Practiced Programs Demonstrating:
 
-Vehicle Registration
+* Difference between instance and class members
+* Sharing data across objects using static members
+* Immutability and restriction using final keyword
+* Runtime type checking using `instanceof`
+* Writing clean and readable Java programs
 
-Online Course Management
+---
 
-Created subclasses to demonstrate:
+## 🛠 Tools & Concepts Used
 
-Protected access
+### Java (OOP Concepts)
 
-Getter & Setter usage
+* `this` keyword
+* `static` keyword
+* `final` keyword
+* `instanceof` operator
+* Classes and Objects
+* Inheritance basics
 
-🛠 Tools & Concepts Used
-🔹 Java OOP
+### Eclipse IDE
 
-Constructors
+* Editor usage
+* Code navigation
+* Formatting
+* Debugging
 
-Access Modifiers
+### Git & GitHub
 
-Encapsulation
+* Continued work on `java-oops-practice` branch
+* Added Level 1 lab practice programs
+* Maintained clean and structured commits
 
-Inheritance
+---
 
-Static members
+## ✅ Best Practices Followed
 
-🔹 Eclipse IDE
+* Used `this` keyword to avoid ambiguity
+* Applied `static` only when shared behavior was required
+* Used `final` to enforce immutability
+* Applied `instanceof` before type casting
+* Followed Java naming and coding standards
+* Organized code into meaningful packages
+* Maintained readable and well-documented source code
 
-Package-based project structure
+🔗 **Code Link (Week 2 – Day 3):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction)
 
-Code execution & debugging
+---
 
-🔹 Git & GitHub
+# 🔹 Day 4: Object Modeling – Relationships & Communication (OOP)
 
-Continued work on java-oops-practice branch
+---
 
-Structured commits
+## 📚 Learning Objectives
 
-Version control best practices
+* Understood **Object Modeling** and representation of real-world systems using classes
+* Learned different types of object relationships in Java:
 
-✅ Best Practices Followed
+  * Aggregation
+  * Association
+  * Composition
+* Practiced object communication using method calls
+* Understood object life-cycle dependency
+* Differentiated between:
 
-Applied least privilege principle
+  * Has-A vs Part-Of relationships
+  * Weak vs strong coupling
 
-Used private variables with getters/setters
+---
 
-Used protected access carefully
+## 🧩 Core Object Relationships Covered
 
-Maintained clean constructor logic
+### 🔹 Aggregation (Has-A Relationship)
 
-Followed Java naming conventions
+* Objects can exist independently
+* One object contains references to another
+* Example: **Library → Books**
 
-Organized code in meaningful packages
+### 🔹 Association (Uses-A Relationship)
 
-🔗 Code Link (Week 2 – Day 2):
-👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/javaconstructors/level1
+* Objects are connected but do not own each other
+* Many-to-many relationship
+* Example: **Bank ↔ Customer**, **Doctor ↔ Patient**
 
-🔹 Day 3: this, static, final & instanceof (Level 1 Lab Practice)
-📚 Learning Objectives
+### 🔹 Composition (Part-Of Relationship)
 
-Understood this keyword for:
+* Strong ownership
+* Child objects cannot exist without parent
+* Deleting parent deletes child objects
+* Example: **Company → Department → Employee**
 
-Referring to current object
+---
 
-Resolving variable ambiguity
+## 🧪 Assisted Practice Problems Implemented
 
-Learned static keyword for:
+### 1️⃣ Library and Books (Aggregation)
 
-Class-level variables
+* Library contains multiple books
+* Books exist independently
+* Same book can belong to multiple libraries
 
-Shared methods
+### 2️⃣ Bank and Account Holders (Association)
 
-Gained understanding of final keyword:
+* Bank associated with multiple customers
+* Customers interact using:
 
-Final variables
+  * `openAccount()`
+  * `viewBalance()`
+* Demonstrated object communication
 
-Final methods
+### 3️⃣ Company and Departments (Composition)
 
-Final classes
+* Company owns departments
+* Departments own employees
+* Deleting company removes all associated objects
 
-Learned instanceof operator:
+---
 
-Runtime type checking
+## 🧪 Self Practice Problems Implemented
 
-Safe casting
+### 1️⃣ School, Students & Courses
 
-🧪 Java Programs & Practice Work
+*(Aggregation + Association)*
 
-Implemented programs using:
+* School aggregates students
+* Students associate with multiple courses
+* Courses display enrolled students
 
-this keyword
+### 2️⃣ University, Departments & Faculties
 
-static members
+*(Composition + Aggregation)*
 
-final keyword
+* University composed of departments
+* Departments deleted with university
+* Faculty exists independently
 
-instanceof operator
+### 3️⃣ Hospital, Doctors & Patients
 
-Solved Level-1 lab problems
+*(Association + Communication)*
 
-Practiced:
+* Many-to-many relationship
+* `consult()` method used for interaction
 
-Instance vs class members
+### 4️⃣ E-Commerce Platform
 
-Immutability using final
+*(Aggregation + Communication)*
 
-Parent–child relationship checks
+* Customer places orders
+* Orders aggregate products
+* Demonstrated real-world order flow
 
-🛠 Tools & Concepts Used
-🔹 Java OOP
+### 5️⃣ University Management System
 
-this keyword
+*(Association + Aggregation)*
 
-static keyword
+* Students enroll in courses
+* Professors teach courses
+* Methods used:
 
-final keyword
+  * `enrollCourse()`
+  * `assignProfessor()`
 
-instanceof operator
+---
 
-Inheritance basics
+## 🛠 Tools & Concepts Used
 
-🔹 Eclipse IDE
+### Java (OOP)
 
-Code navigation
+* Classes & Objects
+* Aggregation
+* Association
+* Composition
+* Object Communication
+* ArrayList
 
-Formatting
+### Eclipse IDE
 
-Debugging
+* Multi-class project structure
+* Debugging object interactions
 
-🔹 Git & GitHub
+### Git & GitHub
 
-Continued work on java-oops-practice branch
+* Continued work on `java-oops-practice` branch
+* Structured commits
+* Clean project organization
 
-Added Level 1 lab programs
+---
 
-Maintained clean commits
+## ✅ Best Practices Followed
 
-✅ Best Practices Followed
+* Proper package structuring
+* Clear separation of responsibilities
+* Constructor-based dependency handling
+* Low coupling and high cohesion
+* Clean, readable, and maintainable code
+* Accurate real-world modeling
 
-Used this to avoid ambiguity
+🔗 **Code Link (Week 2 – Day 4):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/objectmodeling)
 
-Applied static only when required
+---
 
-Used final for immutability
 
-Applied instanceof safely
 
-Followed Java naming conventions
-
-Maintained clean, readable code
-
-🔗 Code Link (Week 2 – Day 3):
-👉 https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction
