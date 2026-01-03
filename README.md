@@ -1,330 +1,291 @@
 
+# 📘 BridgeLabz Training – Java Programming
 
-## 📘 BridgeLabz Training – Java Programming
+This repository documents my **complete Java learning journey at BridgeLabz**, organized **week-wise and day-wise**.
+It covers **Core Java fundamentals, Object-Oriented Programming (OOP), scenario-based problem solving, and LeetCode practice**, following a **clean and scalable folder architecture**.
 
 ---
 
-## 📅 Week 1: Git, GitHub & Java Programming Fundamentals
+## 📂 Repository Structure (Hierarchical Architecture)
+
+```
+BridgeLabz-Training/
+│
+├── core-java-practice/
+│   ├── gcr-codebase/
+│   │   ├── arrays/
+│   │   ├── builtin-functions/
+│   │   ├── control-flows/
+│   │   ├── java-methods/
+│   │   ├── programming-elements/
+│   │   ├── java-strings/
+│   │   └── extra-questions/
+│   │
+│   ├── leet-code-codebase/
+│   └── scenario-based/
+│
+├── java-oops-practice/
+│   └── gcr-codebase/
+│       └── JavaOopsConcept/
+│           └── src/
+│               └── com/
+│                   ├── classandobject/
+│                   └── javaconstructors/
+│
+└── README.md
+```
+
+---
+
+## 📅 Week 1: Git, GitHub & Core Java Programming
 
 ### 🔹 Day 1: Programming Prerequisites
 
-* Learned Java fundamentals and basic syntax
-* Understood Java program structure
-* Worked with variables and data types
-* Practiced basic arithmetic operations
+**Concepts Covered**
 
-#### 🧪 Java Programs Implemented
-
-* Sum calculation
-* Average calculation
-* Area calculation
-* Volume calculation
+* Java fundamentals & syntax
+* Program structure
+* Variables & data types
+* Arithmetic operations
 * User input handling
 
-#### 🛠 Tools & Practices
+**Programs Implemented**
 
-* Followed proper naming conventions
-* Learned Git and GitHub basics
-* Created a local Git repository
-* Added Java files to the repository
-* Committed changes using Git
-* Pushed local files to GitHub
+* Sum, Average, Area, Volume calculations
 
-🔗 **Code Link (Day 1):**
+🔗 **Code Link**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Programming%20Pre-requisites](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Programming%20Pre-requisites)
 
+---
 
 ### 🔹 Day 2: Programming Elements
 
-* Solved Level-1 and Level-2 programming problems
-* Practiced core programming elements in Java
-* Worked with variables and data types
-* Used operators for calculations
-* Implemented user input and output
+**Concepts Covered**
 
-#### 🧪 Java Programs Implemented
+* Operators
+* Conditional statements
+* Loops
+* Level-1 & Level-2 problems
 
-* Average marks calculation
-* Age calculation
-* Unit conversion programs
-* Loop-based programs
-* Conditional logic programs
+🔗 **Code Link**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
-#### 🛠 Concepts & Practices
-
-* Used conditional statements (`if`, `else`)
-* Applied looping concepts:
-
-  * `for` loop
-  * `while` loop
-* Improved logical thinking and problem-solving skills
-* Followed proper naming conventions
-* Practiced Git workflow:
-
-  * Adding files
-  * Committing changes
-  * Pushing code to GitHub
-
-🔗 **Code Link (Day 2):**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/%20programming-elements](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/%20programming-elements)
-
+---
 
 ### 🔹 Day 3: Java Control Flows
 
-* Learned Java control flow concepts
-* Worked with Java Boolean data type
-* Practiced boolean expressions
-* Used logical operators (`&&`, `||`, `!`)
+**Concepts Covered**
 
-#### 🧪 Java Programs Implemented
+* if, else-if, switch
+* for, while loops
+* break & continue
 
-* Programs using `if` conditional statements
-* Programs using `else if` and final `else`
-* Loop-based programs using:
-
-  * `for` loop
-  * `while` loop
-* Programs using `break` and `continue`
-* Menu-driven programs using `switch` statement.
-
-#### 🛠 Concepts & Practices
-
-* Implemented decision-making logic
-* Improved understanding of program execution flow
-* Followed proper naming conventions
-* Used methods for better code structure
-* Practiced Git workflow:
-
-  * Committing changes
-  * Pushing code to GitHub
-
-🔗 **Code Link (Day 3):**
+🔗 **Code Link**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
+---
 
 ### 🔹 Day 4: Java Arrays
 
-* Learned core concepts of Java arrays
-* Created single-dimensional arrays
-* Accessed array elements using index
-* Iterated arrays using `for` loop
-* Modified array elements
-* Used `length` property of arrays
+**Concepts Covered**
 
-#### 🧪 Java Programs Implemented
+* 1D & 2D arrays
+* Traversal and modification
+* Matrix-based programs
 
-* Programs using single-dimensional arrays
-* Array traversal and modification programs
-* Programs using multi-dimensional arrays
-* 2D array (matrix) programs
-* Programs to access size and elements of 2D arrays
-
-#### 🛠 Concepts & Practices
-
-* Worked with multi-dimensional arrays
-* Improved understanding of data storage and access
-* Used `System.err()` for error messages
-* Used `System.exit()` method
-* Followed proper naming conventions
-* Practiced Git workflow:
-
-  * Committing changes
-  * Pushing code to GitHub
-
-🔗 **Code Link (Day 4):**
+🔗 **Code Link**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+
+---
 
 ### 🔹 Day 5: Java Methods
 
-* Learned the concept of user-defined methods
-* Used methods multiple times in programs
-* Made methods dynamic using parameters
-* Implemented recursive methods
-* Worked with static methods
+**Concepts Covered**
 
-#### 🧪 Java Programs Implemented
+* User-defined methods
+* Parameterized & static methods
+* Recursion
+* Modular programming
 
-* Level-1 problems using basic methods
-* Level-2 problems with parameterized methods
-* Level-3 problems using advanced logic
-* Programs demonstrating method reuse
-* Recursive logic programs
-* Programs using static methods
-* Programs using Java standard library methods
-
-#### 🛠 Concepts & Practices
-
-* Solved Level-1, Level-2, and Level-3 problems
-* Used Java standard library methods
-* Worked with `java.lang.Math` class
-* Improved modular programming approach
-* Reduced code duplication
-* Followed proper naming conventions
-* Practiced Git workflow:
-
-  * Committing changes
-  * Pushing code to GitHub
-
-🔗 **Code Link (Day 5):**
+🔗 **Code Link**
 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods)
 
+---
 
 ### 🔹 Day 6: Java Strings & Exceptions
 
-* Learned core concepts of Java Strings
-* Created and manipulated strings
-* Used escape sequence (`\"`)
-* Took string input from user
-* Worked with string arrays
-* Passed strings as method parameters
-* Used String class built-in methods
-* Learned ASCII character codes
+**Concepts Covered**
 
-#### ⚠️ Java Exceptions
+* String manipulation
+* Built-in string methods
+* Checked & unchecked exceptions
 
-* Introduction to Java exceptions
-* Understood exception hierarchy
-* Learned exception types
-* Worked with unchecked exceptions (`RuntimeException`)
-* Worked with checked exceptions
+🔗 **Code Link**
+👉 [https://prourls.info/R20DmW](https://prourls.info/R20DmW)
 
-#### 🧪 Java Programs Implemented
+---
 
-* Level-1 problems on basic string operations
-* Level-2 problems using string methods and arrays
-* Level-3 problems using advanced string logic
-* Programs demonstrating exception handling
-* Programs handling checked and unchecked exceptions
+### 🔹 Day 7: Built-in Functions & Date-Time
 
-#### 🛠 Best Programming Practices Followed
+**Concepts Covered**
 
-* Used variables for fixed values, user input, and results
-* Used methods instead of writing logic in `main()`
-* Followed proper naming conventions for variables and methods
-* Maintained proper program and class names
-* Handled checked and unchecked exceptions wherever possible
-* Used meaningful method names indicating action and result
+* Math & Random classes
+* Java Date & Time API
+* Logic-based modular programs
 
-🔗 **Code Link (Day 6):**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-string](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-string)
+🔗 **Code Link**
+👉 [https://prourls.info/3fnIFQ](https://prourls.info/3fnIFQ)
 
-### 🔹 Day 7: Extra Java Strings, Built-in Functions & Date-Time
+---
 
-* Revised advanced Java String handling concepts
-* Practiced common string operations and functions
-* Worked on string handling and string–date–time problems
-* Implemented parameter passing and return values
-* Applied best practices for organizing code into functions
+### 🔹 Day 8: Advanced Strings & Scenario-Based Problems
 
-#### 🧰 Built-in Functions & Utilities
+**Concepts Covered**
 
-* Used `Random` class for random number generation
-* Used `Math` class for mathematical operations
-* Introduction to Java Date and Time concepts
-* Worked with modern Java Date & Time APIs (Java 8+)
-* Understood real-world use cases of date and time handling
+* StringBuilder
+* Date difference & age calculation
+* BMI Fitness Tracker
+* Coffee Counter System
 
-#### 🧪 Extra Problems Implemented
+🔗 **Code Link**
+👉 [https://prourls.info/It6vkI](https://prourls.info/It6vkI)
 
-* Number Guessing Game using `Random` class
-* Maximum of three numbers using modular functions
-* Prime number checker using separate validation method
-* Fibonacci sequence generator
-* Palindrome checker for strings
-* Factorial calculation using recursion
-* GCD and LCM calculator using functions
-* Temperature converter (Fahrenheit ↔ Celsius)
-* Basic calculator with separate functions for each operation
+---
 
-#### 🛠 Best Practices Followed
+### 🔹 Day 9: Core Java Scenario-Based Problem Solving
 
-* Used variables for fixed values, user inputs, and results
-* Organized logic into multiple reusable methods
-* Followed proper naming conventions
-* Maintained clean and modular code structure
-* Separated input, processing, and output logic
+**Highlights**
 
-🔗 **Code Link (Day 7):**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extra-questions)
+* Solved real-world Java problems
+* Converted real-life scenarios into Java programs
+* Practiced menu-driven logic and clean coding
 
-📘 Week 2: Object Oriented Programming (OOP)
-🔹 Day 3: this, static, final Keywords, instanceof Operator & Scenario-Based Practice
-Learned and practiced Java inbuilt keywords and operators
-Strengthened understanding of object behavior, memory sharing, and immutability
-Solved real-world scenario-based Core Java problems
-Applied control flow statements in practical applications
-Worked across multiple branches for structured learning
-🧠 Concepts Covered
-this keyword
+**Scenario Programs**
 
-Referring to current object
-Resolving variable shadowing
-Improving constructor and method clarity
-static keyword
+* Parking Lot Gate System 🚗
+* Number Guessing Game 🎲
+* Shopkeeper’s Discount Dashboard 🛍️
+* School Bus Attendance System 🚍
+* Phone Recharge Simulator 📱
 
-Class-level variables and methods
-Shared data across objects
-final keyword
+🔗 **Code Link**
+👉 [https://prourls.info/5YFJzU](https://prourls.info/5YFJzU)
 
-Final variables (constants)
-Final methods (prevent overriding)
-Final classes (prevent inheritance)
-instanceof operator
+---
 
-Runtime object type checking
-Safe type casting in inheritance
-Eclipse Editor
+## 📘 Week 2: Object-Oriented Programming (OOP)
 
-Editor usage
-Code navigation
-Debugging and execution
-🧪 Java Programs & Practice Work
-🔹 Level 1 Lab Practice (OOP Keywords)
-Programs using this keyword in constructors and methods
-Static variables and static methods
-Final variables, methods, and classes
-instanceof operator with parent–child class relationships
-Instance vs class-level data behavior
-🔹 Scenario-Based Core Java Problems
-Parking Lot Gate System 🚗
-Number Guessing Game 🎲
-Shopkeeper’s Discount Dashboard 🛍️
-School Bus Attendance System 🚍
-Phone Recharge Simulator 📱
-🛠 Tools & Technologies Used
-Java (Core + OOP Concepts)
+### 🔹 Day 1: Classes, Objects & Eclipse Setup
 
-Keywords: this, static, final
-instanceof operator
-Conditional statements and loops
-Eclipse IDE
+**Concepts Covered**
 
-Class creation
-Debugging and execution
-Git & GitHub
+* Packages
+* Classes & objects
+* Eclipse workspace setup
+* Git branch creation (`java-oops-practice`)
 
-Worked on multiple branches:
+🔗 **Code Link**
+👉 [https://prourls.info/OEUg5c](https://prourls.info/OEUg5c)
 
-java-oops-practice
-core-java-practice
-Maintained clean and meaningful commits
+---
 
-✅ Best Practices Followed
-Used this keyword to avoid ambiguity
-Applied static only where shared behavior was required
-Used final to enforce immutability and restrictions
-Performed instanceof checks before type casting
-Followed Java naming and coding conventions
-Wrote clean, readable, and well-structured code
-🔗 Code Links (Week 2 – Day 3)
-OOP Keywords Practice: 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcept/src/com/inbuiltfunction)
+### 🔹 Day 2: Constructors & Access Modifiers
 
-Scenario-Based Problems: 👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
-](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+**Concepts Covered**
 
+* Default & parameterized constructors
+* Access modifiers
+* Encapsulation & inheritance
 
+**Programs Implemented**
 
+* Book Library System
+* Bank Account Management
+* Employee Records
+* Vehicle Registration
+* Online Course Management
 
+🔗 **Code Link**
+👉 [https://prourls.info/105Nsg](https://prourls.info/105Nsg)
 
+---
+
+### 🔹 Day 3: `this`, `static`, `final`, `instanceof`
+
+**Concepts Covered**
+
+* this keyword
+* static variables & methods
+* final variables, methods & classes
+* instanceof operator
+* Eclipse debugging
+
+🔗 **Code Links**
+
+* OOP Keywords Practice: 👉 [https://prourls.info/konKES](https://prourls.info/konKES)
+* Scenario-Based Problems: 👉 [https://prourls.info/y8b0Zd](https://prourls.info/y8b0Zd)
+
+---
+
+### 🔹 Day 4: Object Modeling & Relationships
+
+**Concepts Covered**
+
+* Aggregation
+* Association
+* Composition
+* Object communication
+* Life-cycle dependency
+
+🔗 **Code Link**
+👉 [https://prourls.info/ddl5Q1](https://prourls.info/ddl5Q1)
+
+---
+
+### 🔹 Day 5: Inheritance & Polymorphism
+
+**Concepts Covered**
+
+* Single, Multilevel, Hierarchical inheritance
+* Hybrid inheritance using interfaces
+* Method overriding & runtime polymorphism
+
+**Programs Implemented**
+
+* Animal Hierarchy
+* Employee Management System
+* Vehicle & Transport System
+* Banking Account Types
+* School Roles System
+
+🔗 **Code Link**
+👉 [https://prourls.info/fL50Wl](https://prourls.info/fL50Wl)
+
+---
+
+### 🔹 Day 6: Encapsulation, Abstract Classes & Interfaces
+
+**Concepts Covered**
+
+* Encapsulation with private fields
+* Abstract classes
+* Interfaces
+* Polymorphism using abstraction
+
+**Programs Implemented**
+
+* Employee Management System
+* E-Commerce Platform
+* Vehicle Rental System
+* Banking System
+* Library Management System
+* Online Food Delivery System
+* Hospital Patient Management
+* Ride-Hailing Application
+
+🔗 **Code Link**
+👉 [https://prourls.info/OVotMA](https://prourls.info/OVotMA)
+
+---
 
 
