@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+
+# Java compiled files
+*.class
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+clear
+O
