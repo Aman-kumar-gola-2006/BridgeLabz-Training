@@ -344,6 +344,89 @@ BridgeLabz-Training/
 
 ---
 
+# 📘 Week 3: Advanced Java, OOP & Data Structures
+
+## 🔹 Week 3 – Day 1: Story-Driven OOP Design & DSA Foundations
+
+Day 1 of Week 3 emphasized **advanced Object-Oriented Programming using real-life scenarios** and marked the formal beginning of the **Data Structures journey**, with a strong focus on setup, design, and Linked List implementations.
+
+---
+
+## 🔹 Java OOP – Real-World, Story-Based Design
+
+**Branch:** `java-oops-practice`
+
+During this session, the focus was on designing **practical Java applications** inspired by real-world systems.
+
+### Key Work Done
+
+* Solved multiple **story-based OOP problems**
+* Designed mini-systems using:
+
+  * Classes and Objects
+  * Constructors and Method Overloading
+  * Interfaces and Inheritance
+* Applied **Encapsulation** to secure sensitive data
+* Used **Polymorphism** to implement behavior variation
+* Performed domain-based calculations using Java operators
+
+### Scenario-Based Applications Developed
+
+* **CampusConnect** – College Information Management System
+* **SwiftCart** – Online Grocery Shopping Application
+* **CabbyGo** – Ride-Hailing Service Simulation
+* **MyBank** – Digital Banking System
+
+🔗 **Code Repository (OOP – Week 3 Day 1):**
+👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+
+---
+
+## 🔹 Java DSA – Project Setup & Linked List Implementation
+
+**Branch:** `java-dsa-practice`
+
+This section focused on establishing a **clean DSA project structure** and mastering Linked List fundamentals through hands-on coding.
+
+### Setup & Learning Highlights
+
+* Created and configured a new Git branch for DSA practice
+* Designed the initial folder and package structure
+* Studied Linked List concepts in depth
+* Implemented:
+
+  * Singly Linked List
+  * Doubly Linked List
+  * Circular Linked List
+
+### Core Concepts Practiced
+
+* Node creation and linking
+* Pointer manipulation and traversal logic
+* Proper head and tail handling
+* Null checks before insert/delete operations
+* Preventing infinite loops in circular lists
+* Writing modular, readable, and maintainable code
+
+### Real-World Problems Implemented Using Linked Lists
+
+* Student Record Management System
+* Movie Management System
+* Task Scheduler
+* Inventory Management System
+* Library Management System
+* Round Robin CPU Scheduling
+* Social Media Friend Connections
+* Undo / Redo Text Editor
+* Online Ticket Reservation System
+
+🔗 **Code Repository (DSA – Week 3 Day 1):**
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist)
+
+---
+
+
+
 
 
 
