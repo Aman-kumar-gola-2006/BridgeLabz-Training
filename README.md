@@ -287,5 +287,63 @@ BridgeLabz-Training/
 👉 [https://prourls.info/OVotMA](https://prourls.info/OVotMA)
 
 ---
+## 📅 Day 7: Story-Driven, Real-World Java OOP Applications & DSA Setup
+
+### 🔧 Branch & Repository Work
+
+* Worked on **`java-oops-practice`** branch
+* Created a new branch **`java-dsa-practice`**
+* Implemented a **basic folder structure** for DSA practice
+* Completed **initial project setup** for Data Structures & Algorithms
+
+---
+
+### 💻 Development & Learning Activities
+
+* Solved **real-world, story-based Java programming problems**
+* Designed **mini use-case systems** integrating:
+
+  * Core Java
+  * Object-Oriented Programming (OOP)
+* Applied **end-to-end OOP principles** in realistic application flows
+
+---
+
+### 📌 Key Concepts Applied
+
+#### 🔹 Core Java
+
+* Classes, Variables & Methods
+* Constructors & Method Overloading
+* Access Modifiers (`private`, `protected`, `public`)
+* Interfaces for abstraction
+* Operators for calculations and comparisons
+
+#### 🔹 OOP Principles
+
+* Encapsulation
+* Inheritance
+* Abstraction
+* Polymorphism
+
+---
+
+### 🧩 Scenario-Based Applications Implemented
+
+* Hospital Patient Management System
+* Vehicle Rental Application
+* University Course Enrollment System
+* E-Wallet Application
+* Smart Home Automation System
+
+---
+
+### 🔗 Code Repository (Week 2 – Day 7)
+
+👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase)
+
+---
+
+
 
 
