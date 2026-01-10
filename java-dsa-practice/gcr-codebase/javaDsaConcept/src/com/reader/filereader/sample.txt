@@ -1,0 +1,7 @@
+Hello, this is my first line.
+Java InputStreamReader example.
+Writing console input to file.
+This program stops when exit is typed.
+java is a high level language .
+It is a platform independent language.
+Java offers "WORA".
