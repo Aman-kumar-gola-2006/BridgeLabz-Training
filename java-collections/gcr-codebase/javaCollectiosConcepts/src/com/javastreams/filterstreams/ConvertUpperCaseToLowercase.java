@@ -8,8 +8,8 @@ public class ConvertUpperCaseToLowercase {
 	
     public static void main(String[] args) {
 
-        String sourceFile = "C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\filterstreams\\input.txt";
-        String destinationFile ="C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\filterstreams\\output.txt";
+        String sourceFile = "/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/filterstreams/input.txt";
+        String destinationFile ="/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/filterstreams/output.txt";
         // try-with-resources ensures automatic closing of streams
         try (BufferedReader reader =
                      new BufferedReader(new FileReader(sourceFile));
