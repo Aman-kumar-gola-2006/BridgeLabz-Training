@@ -7,7 +7,7 @@ public class ReadLargeFileLineByLine {
 	    public static void main(String[] args) {
 
 	        // Path to large file (500MB+ supported)
-	        String filePath = "C:\\\\Users\\\\ronit\\\\Desktop\\\\Java Programming Workspace\\\\java-collections\\\\gcr-codebase\\\\javaCollections\\\\src\\\\com\\\\javastreams\\\\bufferedstreams\\\\Textfile.txt";
+	        String filePath = "/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/bufferedstreams/Textfile.txt";
 
 	        // try-with-resources ensures the reader is closed automatically
 	        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
