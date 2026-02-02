@@ -7,8 +7,8 @@ import java.io.IOException;
 public class ReadAndWriteFile {
 
 	public static void main(String[] args) throws IOException {
-		File sourcefile=new File("C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\filehandling\\Textfile.txt");
-		File destinationfile=new File("C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\filehandling\\outputfile.txt");
+		File sourcefile=new File("/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/filehandling/Textfile.txt");
+		File destinationfile=new File("/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/filehandling/outputfile.txt");
 		
 		if(!sourcefile.exists())
 		{
