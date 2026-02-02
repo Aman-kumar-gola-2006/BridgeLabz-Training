@@ -41,12 +41,12 @@ public class EfficientFileCopy {
         }
     }
 	public static void main(String[] args) throws IOException{
-		File sourcefile=new File("C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\bufferedstreams\\Textfile.txt");
-		File destinationfile=new File("C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\bufferedstreams\\outputfile.txt");
+		File sourcefile=new File("/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/bufferedstreams/Textfile.txt");
+		File destinationfile=new File("/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/bufferedstreams/outputfile.txt");
 		
 		
-		File sourcefile2=new File("C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\bufferedstreams\\Textfile2.txt");
-		File destinationfile2=new File("C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\bufferedstreams\\outputfile2.txt");
+		File sourcefile2=new File("/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/bufferedstreams/Textfile2.txt");
+		File destinationfile2=new File("/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/bufferedstreams/outputfile2.txt");
 		
 		
 		long start=System.nanoTime();
