@@ -8,7 +8,7 @@ public class SaveAndRetrieveAnObject {
 
 	        // Create employee list
 	        List<Employee> employees = new ArrayList<>();
-	        employees.add(new Employee(101, "Shifa", "IT", 55000));
+	        employees.add(new Employee(101, "Aman", "IT", 55000));
 	        employees.add(new Employee(102, "Ayaan", "HR", 48000));
 	        employees.add(new Employee(103, "Neha", "Finance", 62000));
 
