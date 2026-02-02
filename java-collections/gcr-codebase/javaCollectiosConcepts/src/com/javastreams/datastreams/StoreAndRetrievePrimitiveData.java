@@ -8,7 +8,7 @@ import java.io.IOException;
 public class StoreAndRetrievePrimitiveData {
 
 
-	    private static final String FILE_NAME = "C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\datastreams\\data.txt";
+	    private static final String FILE_NAME = "/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/datastreams/data.txt";
 
 	    /**
 	     * Writes student details to a binary file using DataOutputStream
@@ -20,7 +20,7 @@ public class StoreAndRetrievePrimitiveData {
 	                     new DataOutputStream(new FileOutputStream(FILE_NAME))) {
 
 	            int rollNumber = 101;
-	            String name = "Shifa";
+	            String name = "Aman";
 	            double gpa = 8.7;
 
 	            // Writing primitive data
