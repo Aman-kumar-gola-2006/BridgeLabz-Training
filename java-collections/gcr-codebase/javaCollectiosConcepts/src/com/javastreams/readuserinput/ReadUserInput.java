@@ -12,7 +12,7 @@ public class ReadUserInput {
 	        try (BufferedReader br =
 	                     new BufferedReader(new InputStreamReader(System.in));
 	             FileWriter writer =
-	                     new FileWriter("C:\\Users\\ronit\\Desktop\\Java Programming Workspace\\java-collections\\gcr-codebase\\javaCollections\\src\\com\\javastreams\\readuserinput\\Textfile.txt")) {
+	                     new FileWriter("/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/readuserinput/Textfile.txt")) {
 
 	            // Read user name
 	            System.out.print("Enter your name: ");
