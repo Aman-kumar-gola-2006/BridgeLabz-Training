@@ -9,7 +9,7 @@ public class CountWords {
 	
 	    public static void main(String[] args) {
 
-	        String filePath = "C:\\\\Users\\\\ronit\\\\Desktop\\\\Java Programming Workspace\\\\java-collections\\\\gcr-codebase\\\\javaCollections\\\\src\\\\com\\\\javastreams\\\\bufferedstreams\\\\Textfile.txt"; // path to text file
+	        String filePath = "/Users/macbookair/Desktop/Al/JAVA WORKSPACE/java-collections/gcr-codebase/javaCollectiosConcepts/src/com/javastreams/bufferedstreams/Textfile.txt"; // path to text file
 	        Map<String, Integer> wordCount = new HashMap<>();
 
 	        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
