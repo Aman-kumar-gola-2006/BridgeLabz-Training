@@ -11,8 +11,8 @@ public class ConvertImageToByteArray {
 
 	    public static void main(String[] args) {
 
-	        File originalImage = new File("C:\\Users\\ronit\\Downloads\\demo.jpg");
-	        File copiedImage = new File("C:\\Users\\ronit\\Downloads\\demo.jpg");
+	        File originalImage = new File("/Users/macbookair/Documents/manali/DSC_0003.JPG");
+	        File copiedImage = new File("/Users/macbookair/Documents/manali/DSC_0003.JPG");
 
 	        try {
 	            // Convert image to byte array
