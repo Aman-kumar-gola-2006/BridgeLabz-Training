@@ -1,0 +1,4 @@
+com/cjc/model/Student.class
+com/cjc/repository/StudentRepository.class
+com/cjc/controller/StudentController.class
+com/cjc/App.class
