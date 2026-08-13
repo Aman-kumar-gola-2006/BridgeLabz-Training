@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cjc.contact.service.ContactServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.274 s -- in com.cjc.contact.service.ContactServiceImplTest
