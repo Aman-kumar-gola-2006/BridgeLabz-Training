@@ -1,432 +1,680 @@
+# 🚀 BridgeLabz Refresher Training
 
-# 📘 BridgeLabz Training – Java Programming
-
-This repository documents my **complete Java learning journey at BridgeLabz**, organized **week-wise and day-wise**.
-It covers **Core Java fundamentals, Object-Oriented Programming (OOP), scenario-based problem solving, and LeetCode practice**, following a **clean and scalable folder architecture**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk" />
+  <img src="https://img.shields.io/badge/Spring-Framework-green?style=for-the-badge&logo=spring" />
+  <img src="https://img.shields.io/badge/Spring%20MVC-Web%20Development-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-REST%20API-success?style=for-the-badge&logo=springboot" />
+  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/Postman-API%20Testing-orange?style=for-the-badge&logo=postman" />
+  <img src="https://img.shields.io/badge/Git-GitHub-black?style=for-the-badge&logo=github" />
+</p>
 
 ---
 
-## 📂 Repository Structure (Hierarchical Architecture)
+## 📖 About This Repository
 
-```
-BridgeLabz-Training/
+Welcome to my **BridgeLabz Refresher Training** repository.
+
+This repository contains my day-wise learning journey during the
+**BridgeLabz Java Full Stack Refresher Training Program**.
+
+It includes practical assignments, Java programs, SQL exercises,
+Spring Framework concepts, Spring MVC applications, REST APIs,
+API testing, and backend development projects.
+
+The main objective of this training is to strengthen my existing
+development skills and gain hands-on experience with industry-oriented
+Java Full Stack technologies.
+
+---
+
+# 🎯 Learning Objectives
+
+- Strengthen Core Java concepts
+- Practice SQL and database operations
+- Understand Java Web Development
+- Learn Servlet and Tomcat fundamentals
+- Understand Spring Framework and IoC
+- Implement Dependency Injection
+- Learn Spring MVC architecture
+- Develop REST APIs
+- Understand request handling
+- Learn API testing
+- Work with Postman and REST Assured
+- Understand SDLC and backend development workflow
+- Build a Contact Management backend application
+
+---
+
+# 🛠 Technologies & Tools
+
+- ☕ Java 21
+- 🌱 Spring Framework
+- 🌱 Spring MVC
+- 🚀 Spring Boot
+- 🌐 Servlets
+- 🐱 Apache Tomcat
+- 🗄️ MySQL
+- 🔗 JDBC
+- 📦 Maven
+- 🧪 Postman
+- 🧪 REST Assured
+- 💻 Eclipse / STS
+- 🌿 Git & GitHub
+
+---
+
+# 📅 Training Progress
+
+| Day | Topics Covered | Status |
+|---|---|---|
+| Day 1 | SQL Practice – DDL & DML | ✅ Completed |
+| Day 2 | Database Practice & ER Diagram | ✅ Completed |
+| Day 3 | Java Programming Practice | ✅ Completed |
+| Day 4 | Health Clinic Management System – JDBC | ✅ Completed |
+| Day 5 | Tomcat, Servlets & Spring Introduction | ✅ Completed |
+| Day 6 | Spring MVC – My Greeting Application | ✅ Completed |
+| Day 7 | REST API, Request Handling & Contact App Backend | ✅ Completed |
+| Day 8 | Backend API Testing, SDLC & Contact App | ✅ Completed |
+| Day 9 | Contact App Backend – Continued Development | 🔄 In Progress |
+
+---
+
+# 📂 Repository Structure
+
+```text
+BridgeLabz-Training
 │
-├── core-java-practice/
-│   ├── gcr-codebase/
-│   │   ├── arrays/
-│   │   ├── builtin-functions/
-│   │   ├── control-flows/
-│   │   ├── java-methods/
-│   │   ├── programming-elements/
-│   │   ├── java-strings/
-│   │   └── extra-questions/
-│   │
-│   ├── leet-code-codebase/
-│   └── scenario-based/
+├── Day-1
+│   └── SQL-PRACTICE
+│       ├── DDL
+│       └── DML
 │
-├── java-oops-practice/
-│   └── gcr-codebase/
-│       └── JavaOopsConcept/
-│           └── src/
-│               └── com/
-│                   ├── classandobject/
-│                   └── javaconstructors/
+├── Day-2
+│   └── practice
+│       ├── HealthClinic.sql
+│       ├── ER DIAGRAM.png
+│       └── SQL Practice
+│
+├── Day-3
+│   └── Java Practice
+│
+├── Day-4
+│   └── HealthClinicApp
+│
+├── Day-5
+│   └── Tomcat-Servlet-Spring
+│
+├── Day-6
+│   └── Spring-MVC
+│       └── My-Greeting-App
+│
+├── Day-7
+│   └── Contact-App
+│       └── Backend
+│
+├── Day-8
+│   └── Contact-App
+│       └── Backend
+│
+├── Day-9
+│   └── Contact-App
+│       └── Backend
 │
 └── README.md
 ```
 
 ---
 
-## 📅 Week 1: Git, GitHub & Core Java Programming
+# 📚 Day 1 – SQL Fundamentals
 
-### 🔹 Day 1: Programming Prerequisites
+## Topics Covered
 
-**Concepts Covered**
+- Introduction to SQL
+- Database Creation
+- Tables
+- DDL Commands
+- DML Commands
+- Primary Key
+- Foreign Key
+- Unique Key
+- NOT NULL
+- CHECK Constraint
+- DEFAULT Constraint
 
-* Java fundamentals & syntax
-* Program structure
-* Variables & data types
-* Arithmetic operations
-* User input handling
+## SQL Commands Practiced
 
-**Programs Implemented**
-
-* Sum, Average, Area, Volume calculations
-
-🔗 **Code Link**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Programming%20Pre-requisites](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/Programming%20Pre-requisites)
-
----
-
-### 🔹 Day 2: Programming Elements
-
-**Concepts Covered**
-
-* Operators
-* Conditional statements
-* Loops
-* Level-1 & Level-2 problems
-
-🔗 **Code Link**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
+```text
+CREATE
+ALTER
+DROP
+INSERT
+UPDATE
+DELETE
+SELECT
+```
 
 ---
 
-### 🔹 Day 3: Java Control Flows
+# 📚 Day 2 – Database Practice
 
-**Concepts Covered**
+## Topics Covered
 
-* if, else-if, switch
-* for, while loops
-* break & continue
+- Health Clinic Database
+- Database Schema
+- ER Diagram
+- Table Relationships
+- SQL Queries
+- Relational Database Concepts
 
-🔗 **Code Link**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
+## Practice Files
 
----
-
-### 🔹 Day 4: Java Arrays
-
-**Concepts Covered**
-
-* 1D & 2D arrays
-* Traversal and modification
-* Matrix-based programs
-
-🔗 **Code Link**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
+```text
+HealthClinic.sql
+ER DIAGRAM.png
+```
 
 ---
 
-### 🔹 Day 5: Java Methods
+# 📚 Day 3 – Java Programming
 
-**Concepts Covered**
+## Topics Covered
 
-* User-defined methods
-* Parameterized & static methods
-* Recursion
-* Modular programming
-
-🔗 **Code Link**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/java-methods)
-
----
-
-### 🔹 Day 6: Java Strings & Exceptions
-
-**Concepts Covered**
-
-* String manipulation
-* Built-in string methods
-* Checked & unchecked exceptions
-
-🔗 **Code Link**
-👉 [https://prourls.info/R20DmW](https://prourls.info/R20DmW)
+- Java Basics
+- Variables
+- Data Types
+- Operators
+- Conditional Statements
+- Loops
+- Methods
+- Classes & Objects
+- Constructors
+- Packages
+- Object-Oriented Programming
 
 ---
 
-### 🔹 Day 7: Built-in Functions & Date-Time
+# 📚 Day 4 – Health Clinic Management System
 
-**Concepts Covered**
+## Project
 
-* Math & Random classes
-* Java Date & Time API
-* Logic-based modular programs
+A console-based **Health Clinic Management System** developed using
+Java, JDBC and MySQL.
 
-🔗 **Code Link**
-👉 [https://prourls.info/3fnIFQ](https://prourls.info/3fnIFQ)
+## Features
 
----
+- Add Patient
+- View Patients
+- Update Patient
+- Delete Patient
+- Search Patient
+- Doctor Management
+- Department Management
 
-### 🔹 Day 8: Advanced Strings & Scenario-Based Problems
+## Concepts Practiced
 
-**Concepts Covered**
-
-* StringBuilder
-* Date difference & age calculation
-* BMI Fitness Tracker
-* Coffee Counter System
-
-🔗 **Code Link**
-👉 [https://prourls.info/It6vkI](https://prourls.info/It6vkI)
-
----
-
-### 🔹 Day 9: Core Java Scenario-Based Problem Solving
-
-**Highlights**
-
-* Solved real-world Java problems
-* Converted real-life scenarios into Java programs
-* Practiced menu-driven logic and clean coding
-
-**Scenario Programs**
-
-* Parking Lot Gate System 🚗
-* Number Guessing Game 🎲
-* Shopkeeper’s Discount Dashboard 🛍️
-* School Bus Attendance System 🚍
-* Phone Recharge Simulator 📱
-
-🔗 **Code Link**
-👉 [https://prourls.info/5YFJzU](https://prourls.info/5YFJzU)
+- JDBC Connectivity
+- CRUD Operations
+- SQL Queries
+- Exception Handling
+- Database Connectivity
+- DAO Pattern
+- Object-Oriented Programming
 
 ---
 
-## 📘 Week 2: Object-Oriented Programming (OOP)
+# 📚 Day 5 – Tomcat, Servlets & Spring Introduction
 
-### 🔹 Day 1: Classes, Objects & Eclipse Setup
+## Topics Covered
 
-**Concepts Covered**
+### Apache Tomcat
 
-* Packages
-* Classes & objects
-* Eclipse workspace setup
-* Git branch creation (`java-oops-practice`)
+- Introduction to Tomcat
+- Web Server vs Application Server
+- Deploying Java Web Applications
+- Servlet Container
+- Understanding Servlet Lifecycle
 
-🔗 **Code Link**
-👉 [https://prourls.info/OEUg5c](https://prourls.info/OEUg5c)
+### Servlets
 
----
+- Introduction to Servlets
+- Servlet Lifecycle
+- `init()`
+- `service()`
+- `doGet()`
+- `doPost()`
+- `destroy()`
+- Request and Response
+- Servlet Mapping
 
-### 🔹 Day 2: Constructors & Access Modifiers
+### Spring Framework Introduction
 
-**Concepts Covered**
+- Introduction to Spring
+- Why Spring?
+- Spring Container
+- IoC – Inversion of Control
+- Dependency Injection
+- Spring Bean
+- ApplicationContext
+- Bean Configuration
 
-* Default & parameterized constructors
-* Access modifiers
-* Encapsulation & inheritance
+### Basic IoC Container
 
-**Programs Implemented**
+Practiced creating and managing objects through the
+**Spring IoC Container** instead of manually creating objects.
 
-* Book Library System
-* Bank Account Management
-* Employee Records
-* Vehicle Registration
-* Online Course Management
-
-🔗 **Code Link**
-👉 [https://prourls.info/105Nsg](https://prourls.info/105Nsg)
-
----
-
-### 🔹 Day 3: `this`, `static`, `final`, `instanceof`
-
-**Concepts Covered**
-
-* this keyword
-* static variables & methods
-* final variables, methods & classes
-* instanceof operator
-* Eclipse debugging
-
-🔗 **Code Links**
-
-* OOP Keywords Practice: 👉 [https://prourls.info/konKES](https://prourls.info/konKES)
-* Scenario-Based Problems: 👉 [https://prourls.info/y8b0Zd](https://prourls.info/y8b0Zd)
-
----
-
-### 🔹 Day 4: Object Modeling & Relationships
-
-**Concepts Covered**
-
-* Aggregation
-* Association
-* Composition
-* Object communication
-* Life-cycle dependency
-
-🔗 **Code Link**
-👉 [https://prourls.info/ddl5Q1](https://prourls.info/ddl5Q1)
+```text
+Application
+     │
+     ▼
+Spring IoC Container
+     │
+     ├── Creates Bean
+     ├── Manages Bean
+     └── Injects Dependencies
+```
 
 ---
 
-### 🔹 Day 5: Inheritance & Polymorphism
+# 📚 Day 6 – Spring MVC
 
-**Concepts Covered**
+## Project: My Greeting Application
 
-* Single, Multilevel, Hierarchical inheritance
-* Hybrid inheritance using interfaces
-* Method overriding & runtime polymorphism
+Developed a basic **Greeting Application** using Spring MVC.
 
-**Programs Implemented**
+## Spring MVC Architecture
 
-* Animal Hierarchy
-* Employee Management System
-* Vehicle & Transport System
-* Banking Account Types
-* School Roles System
+```text
+Client
+  │
+  ▼
+DispatcherServlet
+  │
+  ▼
+Controller
+  │
+  ▼
+Service / Business Logic
+  │
+  ▼
+Model
+  │
+  ▼
+View
+  │
+  ▼
+Response
+```
 
-🔗 **Code Link**
-👉 [https://prourls.info/fL50Wl](https://prourls.info/fL50Wl)
+## Concepts Covered
 
----
+- Spring MVC
+- DispatcherServlet
+- Controller
+- Request Mapping
+- Model
+- View
+- View Resolver
+- Request Handling
+- MVC Architecture
 
-### 🔹 Day 6: Encapsulation, Abstract Classes & Interfaces
+### DispatcherServlet
 
-**Concepts Covered**
+The `DispatcherServlet` acts as the **front controller** in Spring MVC.
 
-* Encapsulation with private fields
-* Abstract classes
-* Interfaces
-* Polymorphism using abstraction
+It receives incoming requests and forwards them to the appropriate
+controller.
 
-**Programs Implemented**
+### Controller
 
-* Employee Management System
-* E-Commerce Platform
-* Vehicle Rental System
-* Banking System
-* Library Management System
-* Online Food Delivery System
-* Hospital Patient Management
-* Ride-Hailing Application
+The Controller handles the incoming request and prepares the response.
 
-🔗 **Code Link**
-👉 [https://prourls.info/OVotMA](https://prourls.info/OVotMA)
+### View
 
----
-## 📅 Day 7: Story-Driven, Real-World Java OOP Applications & DSA Setup
-
-### 🔧 Branch & Repository Work
-
-* Worked on **`java-oops-practice`** branch
-* Created a new branch **`java-dsa-practice`**
-* Implemented a **basic folder structure** for DSA practice
-* Completed **initial project setup** for Data Structures & Algorithms
-
----
-
-### 💻 Development & Learning Activities
-
-* Solved **real-world, story-based Java programming problems**
-* Designed **mini use-case systems** integrating:
-
-  * Core Java
-  * Object-Oriented Programming (OOP)
-* Applied **end-to-end OOP principles** in realistic application flows
+The View is responsible for presenting the response to the user.
 
 ---
 
-### 📌 Key Concepts Applied
+# 📚 Day 7 – REST API & Request Handling
 
-#### 🔹 Core Java
+## Topics Covered
 
-* Classes, Variables & Methods
-* Constructors & Method Overloading
-* Access Modifiers (`private`, `protected`, `public`)
-* Interfaces for abstraction
-* Operators for calculations and comparisons
+- Introduction to REST API
+- HTTP Methods
+- GET
+- POST
+- PUT
+- DELETE
+- Request Handling
+- Request Parameters
+- Path Variables
+- Request Body
+- Response Handling
+- HTTP Status Codes
 
-#### 🔹 OOP Principles
+## REST API Flow
 
-* Encapsulation
-* Inheritance
-* Abstraction
-* Polymorphism
+```text
+Client
+  │
+  ▼
+HTTP Request
+  │
+  ▼
+Controller
+  │
+  ▼
+Business Logic
+  │
+  ▼
+Response
+  │
+  ▼
+Client
+```
 
----
+## Contact App Backend – Initial Development
 
-### 🧩 Scenario-Based Applications Implemented
+Started developing the **Contact Management Application Backend**.
 
-* Hospital Patient Management System
-* Vehicle Rental Application
-* University Course Enrollment System
-* E-Wallet Application
-* Smart Home Automation System
+### Initial Work
 
----
-
-### 🔗 Code Repository (Week 2 – Day 7)
-
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase)
-
----
-
-# 📘 Week 3: Advanced Java, OOP & Data Structures
-
-## 🔹 Week 3 – Day 1: Story-Driven OOP Design & DSA Foundations
-
-Day 1 of Week 3 emphasized **advanced Object-Oriented Programming using real-life scenarios** and marked the formal beginning of the **Data Structures journey**, with a strong focus on setup, design, and Linked List implementations.
-
----
-
-## 🔹 Java OOP – Real-World, Story-Based Design
-
-**Branch:** `java-oops-practice`
-
-During this session, the focus was on designing **practical Java applications** inspired by real-world systems.
-
-### Key Work Done
-
-* Solved multiple **story-based OOP problems**
-* Designed mini-systems using:
-
-  * Classes and Objects
-  * Constructors and Method Overloading
-  * Interfaces and Inheritance
-* Applied **Encapsulation** to secure sensitive data
-* Used **Polymorphism** to implement behavior variation
-* Performed domain-based calculations using Java operators
-
-### Scenario-Based Applications Developed
-
-* **CampusConnect** – College Information Management System
-* **SwiftCart** – Online Grocery Shopping Application
-* **CabbyGo** – Ride-Hailing Service Simulation
-* **MyBank** – Digital Banking System
-
-🔗 **Code Repository (OOP – Week 3 Day 1):**
-👉 [https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based](https://github.com/abhays07/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenerio-based)
+- Created backend project
+- Configured application
+- Created basic controller
+- Created test endpoint
+- Tested API request and response
+- Started implementing Contact-related functionality
 
 ---
 
-## 🔹 Java DSA – Project Setup & Linked List Implementation
+# 📚 Day 8 – Backend Basics & API Testing
 
-**Branch:** `java-dsa-practice`
+## Topics Covered
 
-This section focused on establishing a **clean DSA project structure** and mastering Linked List fundamentals through hands-on coding.
+### Backend Development
 
-### Setup & Learning Highlights
+- REST API fundamentals
+- Request Handling
+- Response Handling
+- API Structure
+- Controller Layer
+- Basic Backend Architecture
+- REST API Testing
 
-* Created and configured a new Git branch for DSA practice
-* Designed the initial folder and package structure
-* Studied Linked List concepts in depth
-* Implemented:
+### API Testing
 
-  * Singly Linked List
-  * Doubly Linked List
-  * Circular Linked List
+Practiced testing APIs using:
 
-### Core Concepts Practiced
+- Postman
+- REST Assured
 
-* Node creation and linking
-* Pointer manipulation and traversal logic
-* Proper head and tail handling
-* Null checks before insert/delete operations
-* Preventing infinite loops in circular lists
-* Writing modular, readable, and maintainable code
+## Postman Testing
 
-### Real-World Problems Implemented Using Linked Lists
+Tested REST endpoints by sending:
 
-* Student Record Management System
-* Movie Management System
-* Task Scheduler
-* Inventory Management System
-* Library Management System
-* Round Robin CPU Scheduling
-* Social Media Friend Connections
-* Undo / Redo Text Editor
-* Online Ticket Reservation System
+```text
+GET
+POST
+PUT
+DELETE
+```
 
-🔗 **Code Repository (DSA – Week 3 Day 1):**
-👉 [https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist](https://github.com/Aman-kumar-gola-2006/BridgeLabz-Training/tree/java-dsa-practice/java-dsa-practice/gcr-codebase/javaDsaConcept/src/com/linkedlist)
+and verified:
+
+- Request
+- Response
+- Status Code
+- Response Body
+- Headers
 
 ---
 
+## SDLC Exposure
 
+Gained exposure to the **Software Development Life Cycle (SDLC)**.
 
+### Basic SDLC Flow
 
+```text
+Requirement
+     ↓
+Analysis
+     ↓
+Design
+     ↓
+Development
+     ↓
+Testing
+     ↓
+Deployment
+     ↓
+Maintenance
+```
 
+Understanding SDLC helped connect the training assignments with a
+real-world software development workflow.
 
+---
+
+# 📚 Day 8 – Contact App Backend
+
+Continued development of the **Contact Management Application**.
+
+## Work Completed
+
+- Continued backend development
+- Applied REST API concepts
+- Implemented request handling
+- Created and tested Contact APIs
+- Tested APIs using Postman
+- Started API automation using REST Assured
+- Practiced backend development workflow
+
+---
+
+# 📚 Day 9 – Contact App Backend
+
+## 🔄 Continued Development
+
+Day 9 continues the development of the **Contact Management Application Backend**.
+
+The focus is on applying the concepts learned during previous days
+to build a more structured backend application.
+
+## Focus Areas
+
+- Continue Contact API development
+- Improve request handling
+- Implement backend business logic
+- Organize application layers
+- Test Contact APIs
+- Handle API responses
+- Validate API behavior
+- Continue Postman testing
+- Continue REST Assured testing
+
+## Application Flow
+
+```text
+Client
+   │
+   ▼
+REST API
+   │
+   ▼
+Controller
+   │
+   ▼
+Service
+   │
+   ▼
+Repository / DAO
+   │
+   ▼
+Database
+```
+
+---
+
+# 🧪 API Testing
+
+API testing is performed using:
+
+### Postman
+
+Used for manual API testing and verification.
+
+### REST Assured
+
+Used for automated API testing.
+
+Example testing flow:
+
+```text
+Send Request
+     ↓
+Receive Response
+     ↓
+Verify Status Code
+     ↓
+Verify Response Body
+     ↓
+Validate API Behavior
+```
+
+---
+
+# 🧠 Key Concepts Learned So Far
+
+By Day 9, the training has covered:
+
+```text
+Java
+ │
+ ├── OOP
+ ├── Exception Handling
+ └── Programming Fundamentals
+        │
+        ▼
+SQL / MySQL
+        │
+        ▼
+JDBC
+        │
+        ▼
+Servlets
+        │
+        ▼
+Tomcat
+        │
+        ▼
+Spring IoC
+        │
+        ▼
+Spring MVC
+        │
+        ▼
+REST API
+        │
+        ▼
+Backend Development
+        │
+        ▼
+API Testing
+ ├── Postman
+ └── REST Assured
+```
+
+---
+
+# 🎯 Current Project – Contact Management Application
+
+The **Contact Management Application** is being developed as a
+backend-focused application during the refresher training.
+
+## Current Development Areas
+
+- REST APIs
+- Contact Management
+- Request Handling
+- Backend Architecture
+- API Testing
+- Postman
+- REST Assured
+- Layered Architecture
+
+The application will continue to evolve as new concepts are introduced
+during the upcoming training sessions.
+
+---
+
+# 📈 Training Progress
+
+```text
+Day 01  ✅ SQL
+Day 02  ✅ Database & ER Diagram
+Day 03  ✅ Java
+Day 04  ✅ JDBC Health Clinic App
+Day 05  ✅ Tomcat, Servlets & Spring IoC
+Day 06  ✅ Spring MVC & Greeting App
+Day 07  ✅ REST API & Contact App
+Day 08  ✅ Backend & API Testing
+Day 09  🔄 Contact App Development
+```
+
+### Overall Progress
+
+**9 / 20 Days Completed/In Progress**
+
+```text
+█████████░░░░░░░░░░░ 45%
+```
+
+---
+
+# 🚀 Upcoming Learning
+
+The upcoming training sessions will focus on extending the backend
+application and learning additional Java Full Stack technologies.
+
+Expected areas include:
+
+- Advanced Spring
+- Spring Boot
+- REST API Development
+- Database Integration
+- Validation
+- Exception Handling
+- Spring Data JPA
+- Hibernate
+- Unit Testing
+- Microservices
+- Security
+- Deployment
+
+---
+
+# 👨‍💻 Author
+
+## Aman Kumar Gola
+
+**Java Full Stack Developer**
+
+- 📧 Email: `amanagola9841@gmail.com`
+- 💼 LinkedIn: `aman-kumar-gola-08872b25b`
+- 🐙 GitHub: `Aman-kumar-gola-2006`
+- 🌐 Portfolio: `amankumargola.in`
+
+---
+
+<div align="center">
+
+### 🚀 BridgeLabz Refresher Training
+
+**Learning • Practicing • Building • Improving**
+
+⭐ Thank you for visiting my repository!
+
+</div>
