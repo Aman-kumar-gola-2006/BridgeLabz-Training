@@ -2,11 +2,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk" />
-  <img src="https://img.shields.io/badge/Spring-Framework-green?style=for-the-badge&logo=spring" />
-  <img src="https://img.shields.io/badge/Spring%20MVC-Web%20Development-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-REST%20API-success?style=for-the-badge&logo=springboot" />
-  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" />
-  <img src="https://img.shields.io/badge/Postman-API%20Testing-orange?style=for-the-badge&logo=postman" />
+  <img src="https://img.shields.io/badge/Spring%20Framework-green?style=for-the-badge&logo=spring" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-success?style=for-the-badge&logo=springboot" />
+  <img src="https://img.shields.io/badge/Spring%20MVC-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql" />
+  <img src="https://img.shields.io/badge/H2%20Database-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Postman-orange?style=for-the-badge&logo=postman" />
+  <img src="https://img.shields.io/badge/REST%20Assured-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven" />
   <img src="https://img.shields.io/badge/Git-GitHub-black?style=for-the-badge&logo=github" />
 </p>
 
@@ -16,68 +19,75 @@
 
 Welcome to my **BridgeLabz Refresher Training** repository.
 
-This repository contains my day-wise learning journey during the
-**BridgeLabz Java Full Stack Refresher Training Program**.
+This repository contains my **day-wise learning journey** throughout the BridgeLabz Java Full Stack Refresher Training Program.
 
-It includes practical assignments, Java programs, SQL exercises,
-Spring Framework concepts, Spring MVC applications, REST APIs,
-API testing, and backend development projects.
+The repository includes hands-on assignments, Java programming practice, SQL exercises, database design, Java Web Development, Servlets, Spring Framework, Spring MVC, Spring Boot, REST APIs, database integration, API testing, and backend application development.
 
-The main objective of this training is to strengthen my existing
-development skills and gain hands-on experience with industry-oriented
-Java Full Stack technologies.
+The main objective of this refresher training is to strengthen my existing technical knowledge and apply Java Full Stack concepts through practical, industry-oriented development.
 
 ---
 
 # 🎯 Learning Objectives
 
-- Strengthen Core Java concepts
-- Practice SQL and database operations
-- Understand Java Web Development
-- Learn Servlet and Tomcat fundamentals
-- Understand Spring Framework and IoC
-- Implement Dependency Injection
-- Learn Spring MVC architecture
-- Develop REST APIs
-- Understand request handling
-- Learn API testing
-- Work with Postman and REST Assured
-- Understand SDLC and backend development workflow
-- Build a Contact Management backend application
+During this training, I am focusing on:
+
+* Strengthening Core Java concepts
+* Practicing Object-Oriented Programming
+* Working with SQL and relational databases
+* Understanding JDBC
+* Learning Java Web Development
+* Working with Servlets and Tomcat
+* Understanding Spring Framework
+* Understanding IoC and Dependency Injection
+* Building applications using Spring MVC
+* Developing REST APIs
+* Learning Spring Boot
+* Understanding backend architecture
+* Integrating databases with backend applications
+* Working with H2 Database
+* Testing APIs using Postman
+* Automating API testing using REST Assured
+* Understanding SDLC
+* Building and improving a Contact Management backend application
 
 ---
 
-# 🛠 Technologies & Tools
+# 🛠️ Technologies & Tools
 
-- ☕ Java 21
-- 🌱 Spring Framework
-- 🌱 Spring MVC
-- 🚀 Spring Boot
-- 🌐 Servlets
-- 🐱 Apache Tomcat
-- 🗄️ MySQL
-- 🔗 JDBC
-- 📦 Maven
-- 🧪 Postman
-- 🧪 REST Assured
-- 💻 Eclipse / STS
-- 🌿 Git & GitHub
+| Technology / Tool   | Purpose                        |
+| ------------------- | ------------------------------ |
+| ☕ Java 21           | Programming Language           |
+| 🌱 Spring Framework | Backend Framework              |
+| 🌱 Spring MVC       | Web Application Development    |
+| 🚀 Spring Boot      | Backend & REST API Development |
+| 🌐 Servlets         | Java Web Development           |
+| 🐱 Apache Tomcat    | Servlet Container              |
+| 🗄️ MySQL           | Relational Database            |
+| 🟢 H2 Database      | Development & Testing Database |
+| 🔗 JDBC             | Database Connectivity          |
+| 📦 Maven            | Build & Dependency Management  |
+| 🧪 Postman          | API Testing                    |
+| 🧪 REST Assured     | API Automation Testing         |
+| 💻 Eclipse / STS    | Development Environment        |
+| 🌿 Git & GitHub     | Version Control                |
 
 ---
 
 # 📅 Training Progress
 
-| Day | Topics Covered | Status |
-|---|---|---|
-| Day 1 | SQL Practice – DDL & DML | ✅ Completed |
-| Day 2 | Database Practice & ER Diagram | ✅ Completed |
-| Day 3 | Java Programming Practice | ✅ Completed |
-| Day 4 | Health Clinic Management System – JDBC | ✅ Completed |
-| Day 5 | Tomcat, Servlets & Spring Introduction | ✅ Completed |
-| Day 6 | Spring MVC – My Greeting Application | ✅ Completed |
-| Day 7 | REST API, Request Handling & Contact App Backend | ✅ Completed |
-| Day 8 | Backend API Testing, SDLC & Contact App | ✅ Completed |
-| Day 9 | Contact App Backend – Continued Development | 🔄 In Progress |
+| Day    | Training Focus                           | Status         |
+| ------ | ---------------------------------------- | -------------- |
+| Day 1  | SQL – DDL & DML                          | ✅ Completed    |
+| Day 2  | Database Practice & ER Diagram           | ✅ Completed    |
+| Day 3  | Java Programming Practice                | ✅ Completed    |
+| Day 4  | Health Clinic Management System – JDBC   | ✅ Completed    |
+| Day 5  | Tomcat, Servlets & Spring Introduction   | ✅ Completed    |
+| Day 6  | Spring MVC – My Greeting Application     | ✅ Completed    |
+| Day 7  | REST API, Request Handling & Contact App | ✅ Completed    |
+| Day 8  | Backend Basics, API Testing & SDLC       | ✅ Completed    |
+| Day 9  | Spring Boot Fundamentals & Contact App   | ✅ Completed    |
+| Day 10 | Dependency Injection & H2 Database       | ✅ Completed    |
+| Day 11 | Backend Development – Continued          | 🔄 In Progress |
 
 ---
 
@@ -95,7 +105,7 @@ BridgeLabz-Training
 │   └── practice
 │       ├── HealthClinic.sql
 │       ├── ER DIAGRAM.png
-│       └── SQL Practice
+│       └── Untitled.sql
 │
 ├── Day-3
 │   └── Java Practice
@@ -122,6 +132,13 @@ BridgeLabz-Training
 │   └── Contact-App
 │       └── Backend
 │
+├── Day-10
+│   └── Contact-App
+│       └── Backend
+│
+├── Day-11
+│   └── Backend Development
+│
 └── README.md
 ```
 
@@ -129,21 +146,26 @@ BridgeLabz-Training
 
 # 📚 Day 1 – SQL Fundamentals
 
-## Topics Covered
+## 🗄️ SQL Practice
 
-- Introduction to SQL
-- Database Creation
-- Tables
-- DDL Commands
-- DML Commands
-- Primary Key
-- Foreign Key
-- Unique Key
-- NOT NULL
-- CHECK Constraint
-- DEFAULT Constraint
+Day 1 focused on fundamental SQL concepts and database operations.
 
-## SQL Commands Practiced
+### Topics Covered
+
+* Introduction to SQL
+* Database Creation
+* Table Creation
+* DDL
+* DML
+* SQL Constraints
+* Primary Key
+* Foreign Key
+* Unique Constraint
+* NOT NULL
+* CHECK Constraint
+* DEFAULT Constraint
+
+### SQL Commands Practiced
 
 ```text
 CREATE
@@ -155,114 +177,205 @@ DELETE
 SELECT
 ```
 
+### Main Focus
+
+Understanding how relational databases are created, structured, and manipulated using SQL.
+
 ---
 
-# 📚 Day 2 – Database Practice
+# 📚 Day 2 – Database Practice & ER Diagram
 
-## Topics Covered
+## 🏥 Health Clinic Database
 
-- Health Clinic Database
-- Database Schema
-- ER Diagram
-- Table Relationships
-- SQL Queries
-- Relational Database Concepts
+Day 2 focused on database design and relational database concepts.
 
-## Practice Files
+### Topics Covered
+
+* Database Schema
+* Entity Relationship Diagram
+* Table Relationships
+* Primary Key
+* Foreign Key
+* Relationships between entities
+* SQL Queries
+* Health Clinic Database Design
+
+### Practice Files
 
 ```text
 HealthClinic.sql
 ER DIAGRAM.png
+Untitled.sql
 ```
+
+The ER diagram helped in understanding how different entities and their relationships are represented in a relational database.
 
 ---
 
 # 📚 Day 3 – Java Programming
 
-## Topics Covered
+## ☕ Java Practice
 
-- Java Basics
-- Variables
-- Data Types
-- Operators
-- Conditional Statements
-- Loops
-- Methods
-- Classes & Objects
-- Constructors
-- Packages
-- Object-Oriented Programming
+Day 3 focused on strengthening Java programming fundamentals.
+
+### Topics Covered
+
+* Java Basics
+* Variables
+* Data Types
+* Operators
+* Conditional Statements
+* Loops
+* Methods
+* Classes
+* Objects
+* Constructors
+* Packages
+* Object-Oriented Programming
+
+### Main Focus
+
+Building a strong Java foundation before moving into Java Web Development and backend technologies.
 
 ---
 
 # 📚 Day 4 – Health Clinic Management System
 
-## Project
+## 🏥 JDBC Application
 
-A console-based **Health Clinic Management System** developed using
-Java, JDBC and MySQL.
+Day 4 focused on connecting a Java application with a relational database using JDBC.
 
-## Features
+### Project
 
-- Add Patient
-- View Patients
-- Update Patient
-- Delete Patient
-- Search Patient
-- Doctor Management
-- Department Management
+**Health Clinic Management System**
 
-## Concepts Practiced
+A console-based application developed using:
 
-- JDBC Connectivity
-- CRUD Operations
-- SQL Queries
-- Exception Handling
-- Database Connectivity
-- DAO Pattern
-- Object-Oriented Programming
+* Java
+* JDBC
+* MySQL
+
+### Features Practiced
+
+* Patient Management
+* Doctor Management
+* Department Management
+* CRUD Operations
+* Database Connectivity
+
+### JDBC Flow
+
+```text
+Java Application
+       │
+       ▼
+      JDBC
+       │
+       ▼
+   MySQL Database
+       │
+       ▼
+ SQL Operations
+```
+
+### Concepts Covered
+
+* JDBC Connectivity
+* CRUD Operations
+* SQL Queries
+* Exception Handling
+* Database Interaction
+* DAO Concepts
+* Object-Oriented Programming
 
 ---
 
 # 📚 Day 5 – Tomcat, Servlets & Spring Introduction
 
-## Topics Covered
+## 🌐 Java Web Development
 
-### Apache Tomcat
+Day 5 introduced Java Web Development using Servlets and Apache Tomcat.
 
-- Introduction to Tomcat
-- Web Server vs Application Server
-- Deploying Java Web Applications
-- Servlet Container
-- Understanding Servlet Lifecycle
+---
 
-### Servlets
+## 🐱 Apache Tomcat
 
-- Introduction to Servlets
-- Servlet Lifecycle
-- `init()`
-- `service()`
-- `doGet()`
-- `doPost()`
-- `destroy()`
-- Request and Response
-- Servlet Mapping
+### Topics Covered
 
-### Spring Framework Introduction
+* Introduction to Tomcat
+* Servlet Container
+* Web Application Deployment
+* Request Processing
+* Servlet Lifecycle
 
-- Introduction to Spring
-- Why Spring?
-- Spring Container
-- IoC – Inversion of Control
-- Dependency Injection
-- Spring Bean
-- ApplicationContext
-- Bean Configuration
+Tomcat provides the environment required to run Java Servlet-based web applications.
 
-### Basic IoC Container
+---
 
-Practiced creating and managing objects through the
-**Spring IoC Container** instead of manually creating objects.
+## 🌐 Servlets
+
+### Topics Covered
+
+* Servlet Introduction
+* Servlet Lifecycle
+* `init()`
+* `service()`
+* `doGet()`
+* `doPost()`
+* `destroy()`
+* Request Handling
+* Response Handling
+* Servlet Mapping
+
+### Servlet Flow
+
+```text
+Client
+  │
+  ▼
+HTTP Request
+  │
+  ▼
+Tomcat
+  │
+  ▼
+Servlet
+  │
+  ▼
+Processing
+  │
+  ▼
+HTTP Response
+  │
+  ▼
+Client
+```
+
+---
+
+# 🌱 Spring Framework Introduction
+
+Day 5 also introduced the fundamentals of the Spring Framework.
+
+### Topics Covered
+
+* Introduction to Spring
+* Spring Container
+* IoC – Inversion of Control
+* Dependency Injection
+* Spring Beans
+* ApplicationContext
+* Basic Bean Configuration
+
+---
+
+## 🔄 IoC Container
+
+The **Spring IoC Container** is responsible for creating and managing Spring Beans.
+
+Instead of manually creating and managing every object, the Spring Container manages object creation and dependency management.
+
+### Basic Flow
 
 ```text
 Application
@@ -270,8 +383,8 @@ Application
      ▼
 Spring IoC Container
      │
-     ├── Creates Bean
-     ├── Manages Bean
+     ├── Creates Beans
+     ├── Manages Beans
      └── Injects Dependencies
 ```
 
@@ -279,11 +392,25 @@ Spring IoC Container
 
 # 📚 Day 6 – Spring MVC
 
-## Project: My Greeting Application
+## 🌐 My Greeting Application
 
-Developed a basic **Greeting Application** using Spring MVC.
+Day 6 focused on Spring MVC architecture and the development of a basic **Greeting Application**.
 
-## Spring MVC Architecture
+### Topics Covered
+
+* Spring MVC
+* DispatcherServlet
+* Controller
+* Request Mapping
+* Model
+* View
+* View Resolver
+* Request Handling
+* MVC Architecture
+
+---
+
+## 🔄 Spring MVC Request Flow
 
 ```text
 Client
@@ -295,7 +422,7 @@ DispatcherServlet
 Controller
   │
   ▼
-Service / Business Logic
+Business Logic
   │
   ▼
 Model
@@ -307,53 +434,64 @@ View
 Response
 ```
 
-## Concepts Covered
+---
 
-- Spring MVC
-- DispatcherServlet
-- Controller
-- Request Mapping
-- Model
-- View
-- View Resolver
-- Request Handling
-- MVC Architecture
+## 🚦 DispatcherServlet
 
-### DispatcherServlet
+The `DispatcherServlet` acts as the **Front Controller** of a Spring MVC application.
 
-The `DispatcherServlet` acts as the **front controller** in Spring MVC.
+It receives incoming requests and routes them to the appropriate controller.
 
-It receives incoming requests and forwards them to the appropriate
-controller.
+---
 
-### Controller
+## 🎮 Controller
 
-The Controller handles the incoming request and prepares the response.
+The Controller handles incoming requests and prepares the appropriate response.
 
-### View
+---
 
-The View is responsible for presenting the response to the user.
+## 👁️ View
+
+The View is responsible for presenting the processed information to the user.
+
+---
+
+## 👋 Greeting Application
+
+Created a basic Greeting Application using Spring MVC to understand:
+
+* Request handling
+* Controller mapping
+* DispatcherServlet
+* Passing data from Controller to View
+* MVC architecture
 
 ---
 
 # 📚 Day 7 – REST API & Request Handling
 
-## Topics Covered
+## 🌐 REST API Fundamentals
 
-- Introduction to REST API
-- HTTP Methods
-- GET
-- POST
-- PUT
-- DELETE
-- Request Handling
-- Request Parameters
-- Path Variables
-- Request Body
-- Response Handling
-- HTTP Status Codes
+Day 7 focused on REST APIs and handling HTTP requests in backend applications.
 
-## REST API Flow
+### Topics Covered
+
+* REST API
+* HTTP Methods
+* GET
+* POST
+* PUT
+* DELETE
+* Request Parameters
+* Path Variables
+* Request Body
+* Response Body
+* HTTP Status Codes
+* Request Handling
+
+---
+
+## 🔄 REST API Flow
 
 ```text
 Client
@@ -368,72 +506,94 @@ Controller
 Business Logic
   │
   ▼
-Response
+HTTP Response
   │
   ▼
 Client
 ```
 
-## Contact App Backend – Initial Development
+---
+
+# 📱 Contact App Backend
 
 Started developing the **Contact Management Application Backend**.
 
-### Initial Work
+### Initial Development
 
-- Created backend project
-- Configured application
-- Created basic controller
-- Created test endpoint
-- Tested API request and response
-- Started implementing Contact-related functionality
+* Created backend project
+* Configured application
+* Created basic controller
+* Created test endpoint
+* Practiced request handling
+* Started Contact-related backend development
 
----
-
-# 📚 Day 8 – Backend Basics & API Testing
-
-## Topics Covered
-
-### Backend Development
-
-- REST API fundamentals
-- Request Handling
-- Response Handling
-- API Structure
-- Controller Layer
-- Basic Backend Architecture
-- REST API Testing
-
-### API Testing
-
-Practiced testing APIs using:
-
-- Postman
-- REST Assured
-
-## Postman Testing
-
-Tested REST endpoints by sending:
+### Initial Architecture
 
 ```text
-GET
-POST
-PUT
-DELETE
+Client
+   │
+   ▼
+Controller
+   │
+   ▼
+Backend Logic
+   │
+   ▼
+Response
 ```
-
-and verified:
-
-- Request
-- Response
-- Status Code
-- Response Body
-- Headers
 
 ---
 
-## SDLC Exposure
+# 📚 Day 8 – Backend Basics, API Testing & SDLC
 
-Gained exposure to the **Software Development Life Cycle (SDLC)**.
+## ⚙️ Backend Development
+
+Day 8 focused on backend fundamentals and API testing.
+
+### Topics Covered
+
+* Backend Architecture
+* REST API Fundamentals
+* Request Handling
+* Response Handling
+* Controller Layer
+* API Endpoints
+* HTTP Methods
+* API Testing
+
+---
+
+# 🧪 API Testing
+
+API testing was performed using:
+
+### Postman
+
+Used for manual testing and verification of REST APIs.
+
+### REST Assured
+
+Used for automated API testing.
+
+### Testing Process
+
+```text
+Send Request
+      ↓
+Receive Response
+      ↓
+Check Status Code
+      ↓
+Verify Response Body
+      ↓
+Validate API Behaviour
+```
+
+---
+
+# 🏢 SDLC Exposure
+
+Day 8 also provided exposure to the **Software Development Life Cycle (SDLC)**.
 
 ### Basic SDLC Flow
 
@@ -453,206 +613,494 @@ Deployment
 Maintenance
 ```
 
-Understanding SDLC helped connect the training assignments with a
-real-world software development workflow.
+Understanding SDLC helped connect the technical training with a real-world software development process.
 
 ---
 
-# 📚 Day 8 – Contact App Backend
+# 📱 Contact App – Backend Development
 
-Continued development of the **Contact Management Application**.
+Continued development of the Contact Management backend.
 
-## Work Completed
+### Work Focus
 
-- Continued backend development
-- Applied REST API concepts
-- Implemented request handling
-- Created and tested Contact APIs
-- Tested APIs using Postman
-- Started API automation using REST Assured
-- Practiced backend development workflow
+* Applied REST API concepts
+* Implemented request handling
+* Created and tested endpoints
+* Tested APIs using Postman
+* Started API automation using REST Assured
+* Continued backend development
 
 ---
 
-# 📚 Day 9 – Contact App Backend
+# 📚 Day 9 – Spring Boot Fundamentals
 
-## 🔄 Continued Development
+## 🚀 Backend Development with Spring Boot
 
-Day 9 continues the development of the **Contact Management Application Backend**.
+Day 9 focused on **Spring Boot Fundamentals** and starting a Spring Boot-based backend application.
 
-The focus is on applying the concepts learned during previous days
-to build a more structured backend application.
+### Topics Covered
 
-## Focus Areas
+* Introduction to Spring Boot
+* Spring Boot Project Structure
+* Auto-Configuration
+* Spring Boot Starters
+* Embedded Server
+* Spring Controller
+* REST API Basics
+* Request Handling
+* Response Handling
 
-- Continue Contact API development
-- Improve request handling
-- Implement backend business logic
-- Organize application layers
-- Test Contact APIs
-- Handle API responses
-- Validate API behavior
-- Continue Postman testing
-- Continue REST Assured testing
+---
 
-## Application Flow
+## ⚙️ Spring Boot Auto-Configuration
+
+Spring Boot provides **Auto-Configuration** to reduce manual configuration.
+
+It automatically configures application components based on the dependencies and configuration available in the project.
+
+---
+
+## 📦 Spring Boot Starters
+
+Spring Boot Starters provide convenient dependency bundles for common development requirements.
+
+Examples:
+
+```text
+spring-boot-starter-web
+spring-boot-starter-test
+```
+
+---
+
+## 🖥️ Embedded Server
+
+Spring Boot applications can run using an embedded server.
+
+This allows applications to be started directly without manually deploying them to an external application server.
+
+---
+
+# 🎮 Spring Boot Controller
+
+Created basic Spring Boot REST controllers and practiced handling API requests.
+
+### Basic Flow
 
 ```text
 Client
    │
    ▼
-REST API
+Spring Boot Application
    │
    ▼
-Controller
+@RestController
    │
    ▼
-Service
+API Endpoint
    │
    ▼
-Repository / DAO
-   │
-   ▼
-Database
+Response
 ```
+
+---
+
+# 📱 Contact App – Spring Boot
+
+Day 9 continued the development of the **Contact App Backend using Spring Boot**.
+
+### Work Completed
+
+* Bootstrapped a new Spring Boot project
+* Configured Spring Boot application
+* Created basic REST controller
+* Created test endpoint
+* Practiced REST API request handling
+* Continued Contact App backend development
+
+---
+
+# 📚 Day 10 – Dependency Injection & H2 Database
+
+## 🔗 Dependency Injection in Spring Boot
+
+Day 10 focused on going deeper into **Dependency Injection** and applying DI concepts in Spring Boot applications.
+
+### Topics Covered
+
+* Dependency Injection
+* IoC Container
+* Spring Beans
+* Constructor Injection
+* Setter Injection
+* Field Injection
+* Component Scanning
+* `@Component`
+* `@Service`
+* `@Repository`
+* `@Autowired`
+* Layered Architecture
+
+---
+
+# 🧩 Dependency Injection
+
+Dependency Injection allows required dependencies to be provided by the Spring Container instead of manually creating them inside a class.
+
+### Example Architecture
+
+```text
+Spring IoC Container
+        │
+        ▼
+     Controller
+        │
+        ▼
+      Service
+        │
+        ▼
+    Repository
+```
+
+---
+
+# 🏗️ Layered Backend Architecture
+
+The Contact App backend was structured around different application layers.
+
+```text
+             Client
+                │
+                ▼
+        ┌───────────────┐
+        │   Controller  │
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │    Service    │
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │  Repository   │
+        └───────┬───────┘
+                │
+                ▼
+        ┌───────────────┐
+        │   Database    │
+        └───────────────┘
+```
+
+---
+
+# 🗄️ H2 Database
+
+Day 10 introduced **H2 Database** and its integration with Spring Boot.
+
+### Topics Covered
+
+* Introduction to H2
+* H2 Configuration
+* In-Memory Database
+* Spring Boot Database Configuration
+* Database Connectivity
+* Application Properties
+* Database Operations
+* Backend Testing with H2
+
+### H2 Database Flow
+
+```text
+Spring Boot Application
+          │
+          ▼
+       Service
+          │
+          ▼
+      Repository
+          │
+          ▼
+      H2 Database
+```
+
+---
+
+# 📱 Contact App – H2 Integration
+
+Continued development of the **Contact Management Application Backend** by introducing database integration.
+
+### Development Focus
+
+* Apply Dependency Injection
+* Configure H2 Database
+* Connect H2 with Spring Boot
+* Create backend layers
+* Connect Repository with Database
+* Prepare Contact APIs for database operations
+* Test backend functionality
+
+---
+
+# 👨‍💼 Employee Payroll App
+
+The Day 10 training also introduced applying H2 Database integration to backend applications such as the **Employee Payroll App**.
+
+The objective was to understand how Spring Boot, Dependency Injection, and database integration can be applied across different backend applications.
 
 ---
 
 # 🧪 API Testing
 
-API testing is performed using:
+The Contact App APIs continued to be tested using:
 
 ### Postman
 
-Used for manual API testing and verification.
+For manual API testing.
 
 ### REST Assured
 
-Used for automated API testing.
+For automated API testing.
 
-Example testing flow:
+### Testing Flow
 
 ```text
-Send Request
+API Request
      ↓
-Receive Response
+Controller
      ↓
-Verify Status Code
+Service
      ↓
-Verify Response Body
+Repository
      ↓
-Validate API Behavior
+Database
+     ↓
+API Response
 ```
 
 ---
 
-# 🧠 Key Concepts Learned So Far
+# 📚 Day 11 – Backend Development
 
-By Day 9, the training has covered:
+## 🔄 Continuing the Backend Journey
+
+Day 11 is currently **in progress** and continues the backend development work started during the previous training sessions.
+
+The focus is on taking the Contact Management backend further and applying the Spring Boot concepts learned during Days 9 and 10.
+
+### Current Focus
+
+* Continue Spring Boot backend development
+* Continue Contact App development
+* Apply Dependency Injection
+* Work with layered architecture
+* Continue REST API development
+* Continue database integration
+* Test backend APIs
+* Improve application structure
+* Apply concepts learned during previous days
+
+### Current Architecture
 
 ```text
-Java
- │
- ├── OOP
- ├── Exception Handling
- └── Programming Fundamentals
-        │
-        ▼
-SQL / MySQL
-        │
-        ▼
-JDBC
-        │
-        ▼
-Servlets
-        │
-        ▼
-Tomcat
-        │
-        ▼
-Spring IoC
-        │
-        ▼
-Spring MVC
-        │
-        ▼
+Client
+   │
+   ▼
+REST Controller
+   │
+   ▼
+Service Layer
+   │
+   ▼
+Repository Layer
+   │
+   ▼
+Database
+```
+
+> **Day 11 details will be updated as new concepts and assignments are completed during the training.**
+
+---
+
+# 📱 Current Project – Contact Management Application
+
+The **Contact Management Application** is the main backend project being developed throughout the Spring Boot training.
+
+The project provides practical experience in designing and developing a backend application using Java and Spring technologies.
+
+## 🔧 Current Technologies
+
+* Java
+* Spring Framework
+* Spring MVC
+* Spring Boot
+* REST API
+* Dependency Injection
+* H2 Database
+* Postman
+* REST Assured
+* Maven
+
+---
+
+# 🏗️ Current Application Architecture
+
+```text
+                  Contact App
+                      │
+                      ▼
+               REST Controller
+                      │
+                      ▼
+                   Service
+                      │
+                      ▼
+                 Repository
+                      │
+                      ▼
+                  Database
+```
+
+---
+
+# 🧪 Development & Testing Workflow
+
+```text
+Requirement
+     ↓
+Design
+     ↓
+Development
+     ↓
 REST API
-        │
-        ▼
-Backend Development
-        │
-        ▼
-API Testing
- ├── Postman
- └── REST Assured
+     ↓
+Database Integration
+     ↓
+Postman Testing
+     ↓
+REST Assured Testing
+     ↓
+Validation
 ```
 
 ---
 
-# 🎯 Current Project – Contact Management Application
+# 🧠 Learning Journey
 
-The **Contact Management Application** is being developed as a
-backend-focused application during the refresher training.
+The training has progressively moved from programming fundamentals and databases toward modern Java backend development.
 
-## Current Development Areas
-
-- REST APIs
-- Contact Management
-- Request Handling
-- Backend Architecture
-- API Testing
-- Postman
-- REST Assured
-- Layered Architecture
-
-The application will continue to evolve as new concepts are introduced
-during the upcoming training sessions.
+```text
+                    Core Java
+                       │
+                       ▼
+                  SQL / MySQL
+                       │
+                       ▼
+                      JDBC
+                       │
+                       ▼
+                   Servlets
+                       │
+                       ▼
+                    Tomcat
+                       │
+                       ▼
+               Spring Framework
+                       │
+                       ▼
+                  Spring IoC
+                       │
+                       ▼
+              Dependency Injection
+                       │
+                       ▼
+                 Spring MVC
+                       │
+                       ▼
+                  REST APIs
+                       │
+                       ▼
+                 Spring Boot
+                       │
+                       ▼
+                 H2 Database
+                       │
+                       ▼
+              Contact App Backend
+                       │
+                       ▼
+              API Testing & Automation
+```
 
 ---
 
-# 📈 Training Progress
+# 📊 Overall Training Progress
+
+## Current Progress
+
+**10 / 20 Training Days Completed**
+
+**Day 11 is currently in progress.**
+
+```text
+██████████░░░░░░░░░░ 50%
+```
+
+### Day-wise Status
 
 ```text
 Day 01  ✅ SQL
 Day 02  ✅ Database & ER Diagram
-Day 03  ✅ Java
-Day 04  ✅ JDBC Health Clinic App
-Day 05  ✅ Tomcat, Servlets & Spring IoC
-Day 06  ✅ Spring MVC & Greeting App
-Day 07  ✅ REST API & Contact App
-Day 08  ✅ Backend & API Testing
-Day 09  🔄 Contact App Development
-```
-
-### Overall Progress
-
-**9 / 20 Days Completed/In Progress**
-
-```text
-█████████░░░░░░░░░░░ 45%
+Day 03  ✅ Java Programming
+Day 04  ✅ JDBC Health Clinic Application
+Day 05  ✅ Tomcat, Servlets & Spring Introduction
+Day 06  ✅ Spring MVC & Greeting Application
+Day 07  ✅ REST API & Contact App Backend
+Day 08  ✅ Backend, API Testing & SDLC
+Day 09  ✅ Spring Boot Fundamentals
+Day 10  ✅ Dependency Injection & H2 Database
+Day 11  🔄 Backend Development – In Progress
 ```
 
 ---
 
 # 🚀 Upcoming Learning
 
-The upcoming training sessions will focus on extending the backend
-application and learning additional Java Full Stack technologies.
+The upcoming training sessions will continue building on the Spring Boot backend foundation.
 
 Expected areas include:
 
-- Advanced Spring
-- Spring Boot
-- REST API Development
-- Database Integration
-- Validation
-- Exception Handling
-- Spring Data JPA
-- Hibernate
-- Unit Testing
-- Microservices
-- Security
-- Deployment
+* Advanced Spring Boot
+* REST API Development
+* Database Integration
+* Spring Data JPA
+* Hibernate
+* Validation
+* Exception Handling
+* Unit Testing
+* Integration Testing
+* Microservices
+* Spring Security
+* Authentication & Authorization
+* Deployment
+
+---
+
+# 🎯 Training Goals
+
+By the end of the refresher training, the goal is to be able to:
+
+* Build Java backend applications
+* Develop RESTful APIs
+* Work confidently with Spring Boot
+* Apply Dependency Injection
+* Design layered backend architecture
+* Integrate databases
+* Test REST APIs
+* Write automated API tests
+* Understand SDLC practices
+* Build production-oriented backend applications
+* Follow clean and maintainable development practices
 
 ---
 
@@ -662,19 +1110,24 @@ Expected areas include:
 
 **Java Full Stack Developer**
 
-- 📧 Email: `amanagola9841@gmail.com`
-- 💼 LinkedIn: `aman-kumar-gola-08872b25b`
-- 🐙 GitHub: `Aman-kumar-gola-2006`
-- 🌐 Portfolio: `amankumargola.in`
+📧 **Email:** `amanagola9841@gmail.com`
+
+💼 **LinkedIn:** `aman-kumar-gola-08872b25b`
+
+🐙 **GitHub:** `Aman-kumar-gola-2006`
+
+🌐 **Portfolio:** `amankumargola.in`
 
 ---
 
 <div align="center">
 
-### 🚀 BridgeLabz Refresher Training
+# 🚀 BridgeLabz Refresher Training
 
-**Learning • Practicing • Building • Improving**
+### Learn • Practice • Build • Improve
 
-⭐ Thank you for visiting my repository!
+**Java | Spring | Spring Boot | REST API | Database | Testing**
+
+⭐ **Thank you for visiting my repository!**
 
 </div>
