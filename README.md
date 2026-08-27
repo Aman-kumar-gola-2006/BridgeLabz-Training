@@ -1,11 +1,4 @@
-
-
-> **Repository:** `BridgeLabz-Training`
-> **README Title:** `BridgeLabz Refresher Training`
-> **Progress:** 20/20 Days
-
-````markdown
-# 🚀 BridgeLabz Refresher Training
+# Bridela Refresher Training
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk" />
@@ -13,14 +6,8 @@
   <img src="https://img.shields.io/badge/Spring%20Boot-success?style=for-the-badge&logo=springboot" />
   <img src="https://img.shields.io/badge/Spring%20MVC-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SQL-blue?style=for-the-badge&logo=mysql" />
-  <img src="https://img.shields.io/badge/JDBC-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/REST%20API-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Postman-orange?style=for-the-badge&logo=postman" />
-  <img src="https://img.shields.io/badge/REST%20Assured-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Entity%20Framework-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet" />
-  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis" />
   <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven" />
   <img src="https://img.shields.io/badge/Git-GitHub-black?style=for-the-badge&logo=github" />
 </p>
@@ -29,112 +16,87 @@
 
 ## 📖 About
 
-This repository contains my complete **BridgeLabz Refresher Training** journey.
+This repository contains my **Bridela Refresher Training** journey, covering backend development from fundamentals to advanced concepts.
 
-The training covers the complete backend development journey starting from:
+The training includes:
 
-- SQL and Database Fundamentals
-- Core Java
-- JDBC
-- Java Servlets
-- Apache Tomcat
-- Spring Framework
-- Spring IoC and Dependency Injection
-- Spring MVC
-- REST APIs
-- Spring Boot
-- Database Integration
-- Backend Development
-- Entity Framework
-- WebAPI
-- Authentication & Authorization
-- JWT
-- OAuth & SSO
-- CQRS & LINQ
-- Unit Testing
-- API Testing
-- Swagger
-- RabbitMQ
-- Spring Batch
-- AOP
-- Spring Cloud
-- Microservices
-- Service Discovery
-- Eureka
-- API Gateway
-
-The training also includes hands-on development of applications such as:
-
-- 🏥 Health Clinic Application
-- 📇 Address Book Application
-- 👨‍💼 Employee Payroll Application
-- 📱 Contact Management Application
-- 📝 Fundoo Notes Application
+* SQL & Database Fundamentals
+* Core Java
+* JDBC
+* Servlets & Apache Tomcat
+* Spring Framework
+* Spring IoC & Dependency Injection
+* Spring MVC
+* REST APIs
+* Spring Boot
+* H2 Database
+* Entity Framework
+* WebAPI
+* Authentication & Authorization
+* JWT, OAuth & SSO
+* CQRS & LINQ
+* Unit & API Testing
+* Swagger & Logging
+* RabbitMQ
+* Spring Batch
+* AOP
+* Spring Cloud
+* Microservices
+* API Gateway
+* Eureka Service Discovery
 
 ---
 
-# 🎯 Training Objectives
+## 🎯 Training Objectives
 
-The main objectives of this training are:
-
-- Strengthen Core Java fundamentals
-- Understand relational databases and SQL
-- Learn JDBC and database connectivity
-- Understand Java Web Development
-- Work with Servlets and Tomcat
-- Understand Spring Framework
-- Learn IoC and Dependency Injection
-- Build applications using Spring MVC
-- Develop REST APIs
-- Learn Spring Boot
-- Build backend applications
-- Integrate applications with databases
-- Understand Entity Framework and DbContext
-- Work with WebAPI
-- Consume external APIs
-- Implement Authentication and Authorization
-- Understand JWT, OAuth and SSO
-- Learn advanced backend architecture
-- Practice unit and API testing
-- Implement logging and API documentation
-- Understand messaging using RabbitMQ
-- Learn Spring Batch
-- Understand AOP and Spring Cloud
-- Learn Microservices architecture
-- Implement service discovery using Eureka
-- Understand API Gateway
-- Build and improve production-oriented backend applications
+* Strengthen Java and backend fundamentals
+* Understand relational databases and SQL
+* Learn JDBC and database connectivity
+* Develop web applications using Servlets
+* Understand Spring Framework and IoC
+* Implement Dependency Injection
+* Build applications using Spring MVC
+* Develop REST APIs
+* Build backend applications using Spring Boot
+* Integrate databases with backend applications
+* Implement authentication and authorization
+* Understand JWT, OAuth and SSO
+* Perform unit and API testing
+* Implement logging and API documentation
+* Understand asynchronous communication
+* Learn microservices architecture
+* Implement service discovery and API Gateway
 
 ---
 
-# 🛠️ Technologies & Tools
+## 🛠️ Technologies & Tools
 
-| Technology / Tool | Purpose |
-|---|---|
-| ☕ Java | Backend Programming |
-| 🌱 Spring Framework | Enterprise Application Development |
-| 🚀 Spring Boot | Backend & REST API Development |
-| 🌐 Spring MVC | Web Application Development |
-| 🐱 Apache Tomcat | Servlet Container |
-| 🗄️ SQL | Database Management |
-| 🐬 MySQL | Relational Database |
-| 🔗 JDBC | Java Database Connectivity |
-| 🟢 H2 | In-Memory Database |
-| 💻 C# / .NET | Backend Development |
-| ⚡ ASP.NET Core | WebAPI Development |
-| 🗃️ Entity Framework | ORM / Database Access |
-| 🧩 LINQ | Data Querying |
-| 📦 Maven | Build & Dependency Management |
-| 🧪 Postman | API Testing |
-| 🧪 REST Assured | API Automation Testing |
-| 📘 Swagger | API Documentation |
-| 🐇 RabbitMQ | Message Queuing |
-| 🔴 Redis | Caching |
-| 📊 Spring Batch | Batch Processing |
-| ☁️ Spring Cloud | Cloud & Microservices |
-| 🔎 Eureka | Service Discovery |
-| 🌿 Git | Version Control |
-| 🐙 GitHub | Source Code Management |
+| Technology       | Purpose                            |
+| ---------------- | ---------------------------------- |
+| Java             | Backend Programming                |
+| Spring Framework | Enterprise Application Development |
+| Spring Boot      | Backend & REST API Development     |
+| Spring MVC       | Web Application Development        |
+| Apache Tomcat    | Servlet Container                  |
+| SQL              | Database Management                |
+| MySQL            | Relational Database                |
+| JDBC             | Java Database Connectivity         |
+| H2               | In-Memory Database                 |
+| C# / .NET        | Backend Development                |
+| ASP.NET Core     | WebAPI Development                 |
+| Entity Framework | ORM / Database Access              |
+| LINQ             | Data Querying                      |
+| Maven            | Build & Dependency Management      |
+| Postman          | API Testing                        |
+| REST Assured     | API Automation Testing             |
+| Swagger          | API Documentation                  |
+| RabbitMQ         | Message Queuing                    |
+| Redis            | Caching                            |
+| Spring Batch     | Batch Processing                   |
+| Spring Cloud     | Cloud & Microservices              |
+| Eureka           | Service Discovery                  |
+| Git              | Version Control                    |
+| GitHub           | Source Code Management             |
 
 ---
 
@@ -144,12 +106,12 @@ The main objectives of this training are:
 
 ```text
 ████████████████████ 100%
-````
+```
 
 | Day    | Topic                                                     | Status |
 | ------ | --------------------------------------------------------- | ------ |
 | Day 01 | SQL Fundamentals                                          | ✅      |
-| Day 02 | Database & ER Diagram                                     | ✅      |
+| Day 02 | Database Design & ER Diagram                              | ✅      |
 | Day 03 | Java Programming                                          | ✅      |
 | Day 04 | JDBC – Health Clinic Application                          | ✅      |
 | Day 05 | Tomcat, Servlets & Spring Introduction                    | ✅      |
@@ -351,10 +313,6 @@ Polymorphism
 Abstraction
 ```
 
-### Objective
-
-To build a strong Java foundation for backend development.
-
 ---
 
 # 📚 Day 4 – JDBC & Health Clinic Application
@@ -363,18 +321,11 @@ To build a strong Java foundation for backend development.
 
 Day 4 focused on connecting Java applications with databases using JDBC.
 
-### Technologies
-
-* Java
-* JDBC
-* SQL
-* MySQL
-
 ### Topics Covered
 
 * JDBC Architecture
 * Database Connection
-* Driver Management
+* JDBC Driver
 * PreparedStatement
 * ResultSet
 * CRUD Operations
@@ -433,8 +384,6 @@ HTTP Response
 
 ## 🌱 Spring Introduction
 
-Also introduced:
-
 * Spring Framework
 * IoC
 * IoC Container
@@ -442,7 +391,7 @@ Also introduced:
 * Spring Beans
 * ApplicationContext
 
-### IoC
+### IoC Flow
 
 ```text
 Application
@@ -491,7 +440,7 @@ Response
 
 ### DispatcherServlet
 
-`DispatcherServlet` acts as the Front Controller in Spring MVC and routes incoming requests to appropriate controllers.
+`DispatcherServlet` acts as the Front Controller in Spring MVC and routes incoming requests to the appropriate controllers.
 
 ---
 
@@ -548,9 +497,7 @@ Day 8 focused on backend development fundamentals, API testing and SDLC.
 * API Testing
 * SDLC
 
-### API Testing
-
-Tools used:
+### API Testing Tools
 
 * Postman
 * REST Assured
@@ -569,7 +516,7 @@ Status Code
 Response Validation
 ```
 
-## 🏢 SDLC
+### SDLC
 
 ```text
 Requirement
@@ -778,9 +725,7 @@ Day 13 focused on backend architecture and API infrastructure.
 
 ### Practical Work
 
-Continued the **Fundoo Notes App**.
-
-Focused on:
+Continued the **Fundoo Notes App** with:
 
 * Authentication groundwork
 * Authorization groundwork
@@ -934,10 +879,6 @@ Day 17 focused on messaging and batch processing.
 * Excel Import
 * Excel Export
 
-### RabbitMQ
-
-RabbitMQ provides message-based communication between different application components.
-
 ### RabbitMQ Flow
 
 ```text
@@ -960,14 +901,14 @@ Spring Batch is used for processing large volumes of data in batch-oriented jobs
 
 ### Practical Work
 
-* Explored RabbitMQ for smooth background and asynchronous operations
+* Explored RabbitMQ for background and asynchronous operations
 * Practiced Spring Batch
 * Worked with batch processing
 * Worked with Excel import/export
 
 ---
 
-# 📚 Day 18 – REST API Patterns, Global Exception Handling, AOP & Spring Cloud
+# 📚 Day 18 – REST API Patterns, Exception Handling, AOP & Spring Cloud
 
 ## 🌱 Advanced Spring Development
 
@@ -984,10 +925,6 @@ Day 18 focused on improving the architecture and maintainability of Spring appli
 * Aspect-Oriented Programming
 * Introduction to Spring Cloud
 
-### REST API Design
-
-Focused on designing clean and maintainable REST APIs.
-
 ### DTO & Entity Mapping
 
 ```text
@@ -1001,8 +938,6 @@ Entity
    ↓
 Database
 ```
-
-And:
 
 ```text
 Database
@@ -1020,7 +955,7 @@ Centralized exception handling helps maintain consistent API responses and reduc
 
 ### AOP
 
-**Aspect-Oriented Programming** is used to handle cross-cutting concerns such as:
+Aspect-Oriented Programming is used for cross-cutting concerns such as:
 
 * Logging
 * Security
@@ -1029,12 +964,12 @@ Centralized exception handling helps maintain consistent API responses and reduc
 
 ### Practical Work
 
-Consolidated and hardened the **Fundoo Notes App backend** by focusing on:
+Consolidated and hardened the **Fundoo Notes App backend** with:
 
 * Error Handling
 * Logging
 * Cross-Cutting Concerns
-* Better REST API structure
+* REST API improvements
 * DTO and Entity mapping
 
 ---
@@ -1056,7 +991,7 @@ Day 19 introduced Microservices architecture and compared it with Monolithic arc
 * API Gateway
 * API Gateway Routing
 
-### Monolith
+### Monolithic Architecture
 
 ```text
               Monolithic Application
@@ -1070,7 +1005,7 @@ Day 19 introduced Microservices architecture and compared it with Monolithic arc
                   Database
 ```
 
-### Microservices
+### Microservices Architecture
 
 ```text
                     API Gateway
@@ -1097,8 +1032,6 @@ Day 19 introduced Microservices architecture and compared it with Monolithic arc
 
 ### API Gateway
 
-The API Gateway acts as a single entry point for client requests and routes requests to appropriate services.
-
 ```text
 Client
   ↓
@@ -1112,9 +1045,7 @@ Service      Service      Service
 
 ### Practical Work
 
-Started decomposing the **Fundoo Notes App** into microservices.
-
-Initial services:
+Started decomposing the **Fundoo Notes App** into microservices:
 
 * User Management Service
 * Authentication Service
@@ -1133,10 +1064,9 @@ Day 20 focused on service discovery and completing the microservices architectur
 * Eureka
 * Service Discovery
 * Microservices Communication
-* Microservices Architecture
 * Service Registration
-* Service Discovery
 * API Gateway
+* Microservices Architecture
 * Microservices Consolidation
 
 ### Eureka Architecture
@@ -1154,9 +1084,7 @@ Day 20 focused on service discovery and completing the microservices architectur
                 Service Discovery
 ```
 
-### Service Discovery
-
-Instead of services directly depending on fixed hostnames or ports, services register themselves with Eureka.
+### Service Discovery Flow
 
 ```text
 Service Starts
@@ -1174,9 +1102,7 @@ Inter-Service Communication
 
 ### Practical Work
 
-Completed the microservices-based **Fundoo Notes Application**.
-
-Implemented / consolidated services for:
+Completed the microservices-based **Fundoo Notes Application** with:
 
 * User Management
 * Authentication
@@ -1188,6 +1114,8 @@ Implemented / consolidated services for:
 * Labels
 * Reminder
 * Notification
+* API Gateway
+* Eureka Service Discovery
 
 ### Final Demo
 
@@ -1210,7 +1138,6 @@ Fundoo Notes App
 │   └── Password Recovery
 │
 ├── Authentication
-│
 ├── Authorization
 │
 ├── Notes Management
@@ -1218,43 +1145,26 @@ Fundoo Notes App
 │   └── Delete Notes
 │
 ├── Pin
-│
 ├── Archive
-│
 ├── Trash
-│
 ├── Search
-│
 ├── Filter
-│
 ├── Tags
-│
 ├── Labels
-│
 ├── Reminder
-│
 ├── Notification
 │
 ├── RabbitMQ
-│
 ├── Spring Batch
-│
 ├── Unit Testing
-│
 ├── Swagger
-│
 ├── Global Exception Handling
-│
 ├── Logging
-│
 ├── AOP
-│
 ├── Redis / Caching
 │
 ├── Microservices
-│
 ├── API Gateway
-│
 └── Eureka Service Discovery
 ```
 
@@ -1303,9 +1213,7 @@ Database
 
 ---
 
-# 🔐 Security Concepts Learned
-
-During the training, the following security concepts were covered:
+# 🔐 Security Concepts
 
 * Authentication
 * Authorization
@@ -1324,8 +1232,6 @@ During the training, the following security concepts were covered:
 ---
 
 # 🧪 Testing
-
-API and application testing were an important part of the training.
 
 ### Tools & Technologies
 
@@ -1371,8 +1277,6 @@ Consumer
      ↓
 Background Task
 ```
-
-This allows time-consuming operations to be processed asynchronously without blocking the main application flow.
 
 ---
 
@@ -1421,11 +1325,8 @@ AOP was introduced to handle cross-cutting concerns.
 Application
      │
      ├── Business Logic
-     │
      ├── Logging Aspect
-     │
      ├── Security Aspect
-     │
      └── Exception Aspect
 ```
 
@@ -1692,7 +1593,7 @@ Microservices-based Fundoo Notes App
 
 ---
 
-# 📊 Final 20-Day Summary
+# 📊 Final Training Summary
 
 | Day       | Major Learning                                        |
 | --------- | ----------------------------------------------------- |
@@ -1706,7 +1607,7 @@ Microservices-based Fundoo Notes App
 | 🟢 Day 8  | Backend, API Testing & SDLC                           |
 | 🟢 Day 9  | Spring Boot                                           |
 | 🟢 Day 10 | Dependency Injection & H2                             |
-| 🟢 Day 11 | Entity Framework & DbContext                          |
+| 🟢 Day 11 | EF Migrations & DbContext                             |
 | 🟢 Day 12 | WebAPI & HttpClient                                   |
 | 🟢 Day 13 | DI, Routing, Reverse Proxy & CORS                     |
 | 🟢 Day 14 | JWT, OAuth, SSO & Security                            |
@@ -1724,15 +1625,15 @@ Microservices-based Fundoo Notes App
 ```text
 ╔══════════════════════════════════════════════╗
 ║                                              ║
-║       BRIDGELABZ REFRESHER TRAINING          ║
+║          BRIDELA REFRESHER TRAINING          ║
 ║                                              ║
-║              20 / 20 DAYS                    ║
+║                 20 / 20 DAYS                 ║
 ║                                              ║
-║                  100%                        ║
+║                    100%                      ║
 ║                                              ║
-║     SQL → Java → Spring → REST APIs          ║
-║     → Spring Boot → Backend → Security       ║
-║     → RabbitMQ → Spring Cloud → Microservices║
+║ SQL → Java → Spring → Spring Boot            ║
+║ REST APIs → Backend → Security               ║
+║ RabbitMQ → Spring Cloud → Microservices      ║
 ║                                              ║
 ╚══════════════════════════════════════════════╝
 ```
@@ -1748,47 +1649,23 @@ Microservices-based Fundoo Notes App
 ### Technologies
 
 `Java` `Spring` `Spring Boot` `REST API` `SQL` `JDBC`
+
 `Microservices` `RabbitMQ` `Spring Cloud` `Eureka`
 
 ---
 
-# ⭐ Repository Purpose
+## ⭐ Repository Purpose
 
-This repository documents my complete **BridgeLabz Refresher Training** journey through daily practice, assignments, backend applications, API development, database integration, testing, security and microservices.
+This repository documents my complete **Bridela Refresher Training** journey through daily practice, assignments, backend applications, API development, database integration, testing, security and microservices.
 
 The repository demonstrates the progression from fundamental programming and database concepts to advanced backend and distributed-system architecture.
 
 ---
 
-## 🚀 Learning Philosophy
-
-```text
-Learn
-  ↓
-Practice
-  ↓
-Build
-  ↓
-Test
-  ↓
-Debug
-  ↓
-Improve
-  ↓
-Deploy
-```
-
----
-
 <p align="center">
 
-### 🚀 BridgeLabz Refresher Training
+### 🚀 Bridela Refresher Training
 
 **20 Days • Backend Development • Spring • Spring Boot • REST APIs • Microservices**
 
-⭐ Thanks for visiting my repository!
-
 </p>
-```
-
-
