@@ -1,0 +1,616 @@
+{
+	"info": {
+		"_postman_id": "f8a9b0c1-d2e3-4567-8901-abcdef123456",
+		"name": "Fundoo Notes App - Complete Postman Collection",
+		"description": "Single official Postman collection for Fundoo Notes App APIs:\n\n1. Authentication (Register, Login, Forgot Password via JMS Async Queue)\n2. Notes Management (Create, Get All Notes, Get By ID, Update, Pin, Archive, Trash, Restore, Delete)\n3. Tags Management (Add Tag, Remove Tag)\n4. Asynchronous JMS Reminders & Search Module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8083",
+			"type": "string"
+		},
+		{
+			"key": "jwt_token",
+			"value": "",
+			"type": "string"
+		}
+	],
+	"item": [
+		{
+			"name": "01 - Authentication",
+			"item": [
+				{
+					"name": "1. User Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Aman\",\n  \"lastName\": \"Gola\",\n  \"email\": \"aman.gola@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/register",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						},
+						"description": "Registers a new user and auto-saves JWT token to collection variables."
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 201) {",
+									"    var responseJson = pm.response.json();",
+									"    if (responseJson.token) {",
+									"        pm.collectionVariables.set(\"jwt_token\", responseJson.token);",
+									"        console.log(\"JWT Token Auto-Saved: \" + responseJson.token);",
+									"    }",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"response": []
+				},
+				{
+					"name": "2. User Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"aman.gola@example.com\",\n  \"password\": \"password123\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						},
+						"description": "Authenticates user credentials and auto-saves JWT token."
+					},
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"if (pm.response.code === 200) {",
+									"    var responseJson = pm.response.json();",
+									"    if (responseJson.token) {",
+									"        pm.collectionVariables.set(\"jwt_token\", responseJson.token);",
+									"        console.log(\"JWT Token Auto-Saved: \" + responseJson.token);",
+									"    }",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"response": []
+				},
+				{
+					"name": "3. Forgot Password (JMS Async Non-Blocking Email)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"aman.gola@example.com\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/auth/forgot-password",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"forgot-password"
+							]
+						},
+						"description": "Generates password reset token and queues background email notification via JMS queue."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "02 - Notes Management (JWT Protected & Redis Cached)",
+			"item": [
+				{
+					"name": "1. Create Note",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"Spring Boot JMS & Redis Caching\",\n  \"description\": \"Fundoo Notes App with JMS Queue and Redis Token Cache.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/notes",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes"
+							]
+						},
+						"description": "Creates a new note for the authenticated user."
+					},
+					"response": []
+				},
+				{
+					"name": "2. Get All User Notes (Tests Redis Cache MISS & HIT)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes"
+							]
+						},
+						"description": "1st Call: Cache MISS (Real Validation). 2nd Call: Cache HIT (Redis Token Cache)."
+					},
+					"response": []
+				},
+				{
+					"name": "3. Get Note By ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1"
+							]
+						},
+						"description": "Fetches a specific note by ID."
+					},
+					"response": []
+				},
+				{
+					"name": "4. Update Note By ID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"title\": \"Updated Spring Boot JMS & Redis Caching\",\n  \"description\": \"Updated description.\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1"
+							]
+						},
+						"description": "Updates an existing note by ID."
+					},
+					"response": []
+				},
+				{
+					"name": "5. Pin Note",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1/pin",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1",
+								"pin"
+							]
+						},
+						"description": "Pins the note to top."
+					},
+					"response": []
+				},
+				{
+					"name": "6. Archive Note",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1/archive",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1",
+								"archive"
+							]
+						},
+						"description": "Archives the note."
+					},
+					"response": []
+				},
+				{
+					"name": "7. Trash Note (Soft Delete)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1/trash",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1",
+								"trash"
+							]
+						},
+						"description": "Moves note to Trash."
+					},
+					"response": []
+				},
+				{
+					"name": "8. Restore Note",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1/restore",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1",
+								"restore"
+							]
+						},
+						"description": "Restores note back to ACTIVE state."
+					},
+					"response": []
+				},
+				{
+					"name": "9. Delete Note Permanently",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1"
+							]
+						},
+						"description": "Deletes note permanently from database."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "03 - Tags & Labels Management",
+			"item": [
+				{
+					"name": "1. Add Tag to Note",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "text/plain",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "Work"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1/tags",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1",
+								"tags"
+							]
+						},
+						"description": "Attaches tag 'Work' to Note 1."
+					},
+					"response": []
+				},
+				{
+					"name": "2. Remove Tag from Note",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1/tags/Work",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1",
+								"tags",
+								"Work"
+							]
+						},
+						"description": "Removes tag 'Work' from Note 1."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "04 - Search & JMS Reminders",
+			"item": [
+				{
+					"name": "1. Set Note Reminder (JMS Async Queue)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"reminderAt\": \"2026-08-25T10:30:00\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/1/reminder",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"1",
+								"reminder"
+							]
+						},
+						"description": "Sets reminder date/time and dispatches background JMS notification."
+					},
+					"response": []
+				},
+				{
+					"name": "2. Search Notes (Dynamic Filtering)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/notes/search?title=JMS&state=ACTIVE&tag=Work",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"notes",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "JMS"
+								},
+								{
+									"key": "state",
+									"value": "ACTIVE"
+								},
+								{
+									"key": "tag",
+									"value": "Work"
+								}
+							]
+						},
+						"description": "Searches notes using JPA specifications by title, state, and tag."
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
