@@ -1,0 +1,5 @@
+/Users/amankumargola/Documents/workspace-spring-tools-for-eclipse-5.3.0.RELEASE/FundooNotesApp/src/test/java/com/fundoo/notes/batch/RabbitMQAndBatchTest.java
+/Users/amankumargola/Documents/workspace-spring-tools-for-eclipse-5.3.0.RELEASE/FundooNotesApp/src/test/java/com/fundoo/notes/messaging/JmsAndRedisTest.java
+/Users/amankumargola/Documents/workspace-spring-tools-for-eclipse-5.3.0.RELEASE/FundooNotesApp/src/test/java/com/fundoo/notes/service/NoteServiceTest.java
+/Users/amankumargola/Documents/workspace-spring-tools-for-eclipse-5.3.0.RELEASE/FundooNotesApp/src/test/java/com/fundoo/notes/exception/GlobalExceptionAndAopTest.java
+/Users/amankumargola/Documents/workspace-spring-tools-for-eclipse-5.3.0.RELEASE/FundooNotesApp/src/test/java/com/fundoo/notes/FundooNotesApplicationTests.java
