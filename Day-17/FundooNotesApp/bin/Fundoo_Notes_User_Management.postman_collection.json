@@ -1,0 +1,244 @@
+{
+	"info": {
+		"_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+		"name": "Fundoo Notes App - User Management Module (Day 13)",
+		"description": "Complete Postman collection for Fundoo Notes App User Management Module featuring Spring Security and JWT Token Authentication, User Registration, Login, Password Recovery, and Protected APIs.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. User Registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Aman\",\n    \"lastName\": \"Gola\",\n    \"email\": \"aman.gola@example.com\",\n    \"password\": \"Password@123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"users",
+						"register"
+					]
+				},
+				"description": "Registers a new user in the Fundoo Notes application with BCrypt password hashing."
+			},
+			"response": []
+		},
+		{
+			"name": "2. User Login (Generates JWT)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.success && jsonData.data && jsonData.data.token) {",
+							"    pm.collectionVariables.set(\"jwt_token\", jsonData.data.token);",
+							"    console.log(\"Saved JWT Token:\", jsonData.data.token);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"aman.gola@example.com\",\n    \"password\": \"Password@123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				},
+				"description": "Authenticates user credentials and returns JWT Bearer token."
+			},
+			"response": []
+		},
+		{
+			"name": "3. Get User Profile (Protected - JWT Required)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/api/users/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"users",
+						"profile"
+					]
+				},
+				"description": "Retrieves the authenticated user's profile details. Requires Bearer JWT Token in Authorization header."
+			},
+			"response": []
+		},
+		{
+			"name": "4. Forgot Password (Generates Reset Token)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"if (jsonData.success && jsonData.data) {",
+							"    pm.collectionVariables.set(\"reset_token\", jsonData.data);",
+							"    console.log(\"Saved Reset Token:\", jsonData.data);",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"aman.gola@example.com\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/users/forgot-password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"users",
+						"forgot-password"
+					]
+				},
+				"description": "Generates a signed password reset JWT token for the specified user email."
+			},
+			"response": []
+		},
+		{
+			"name": "5. Reset Password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"resetToken\": \"{{reset_token}}\",\n    \"newPassword\": \"NewPassword@456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/users/reset-password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"users",
+						"reset-password"
+					]
+				},
+				"description": "Resets the user's password using the provided reset token."
+			},
+			"response": []
+		},
+		{
+			"name": "6. Login with New Password",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"aman.gola@example.com\",\n    \"password\": \"NewPassword@456\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8083/api/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				},
+				"description": "Verifies that login succeeds with the newly updated password."
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "jwt_token",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "reset_token",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
